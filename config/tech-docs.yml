@@ -14,13 +14,13 @@ header_links:
   Support: https://www.larry-the-cat.service.gov.uk/support
 
 # Enables search functionality. This indexes pages only and is not recommended for single-page sites.
-enable_search: false
+enable_search: true
 
 # Tracking ID from Google Analytics (e.g. UA-XXXX-Y)
 ga_tracking_id:
 
 # Enable multipage navigation in the sidebar
-multipage_nav: false
+multipage_nav: true
 
 # Enable collapsible navigation in the sidebar
 collapsible_nav: false
