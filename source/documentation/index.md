@@ -1,21 +1,44 @@
-# Overview
+# About GovWifi
 
-## Edit Me!
+## Use
 
-Open `source/documentation/index.md` in your favourite text editor and start editing!
+GovWifi is an authentication service running in the cloud that makes all the various participating wifi networks appear as one. Participating organisations configure their wifi infrastructure to access the GovWifi authentication service using the RADIUS open standard.
 
-You can write content in [Markdown](https://daringfireball.net/projects/markdown/) using **all** of the _usual_ syntax that you're used to!
+Each end user is protected with unique credentials and encryption keys when they log in to the wifi and access the internet. These credentials are randomly generated so cannot be used to get into other systems if stolen.
 
-This means you can use things like tables:
+Once logged in, users can access their organisation’s resources in the same way they would if they were working away from the office. Depending on an organisation’s requirements, users may need to use a virtual private network (VPN). Users’ devices are isolated from each other to stop the horizontal spread of malware and protect secure devices from less secure ones.
 
-| Food       | Kind       | Tasty? |
-| ---------- | ---------- | ------ |
-| Bananas    | Fruit      | Yes    |
-| Aubergines | Vegetable  | No     |
-| Apricots   | Fruit      | Yes    |
+The network also identifies itself in a way that cannot be spoofed, adding to the safety measures that provide protection from potential attackers.
 
-To change the title of the page or include additional files you'll need to edit `source/index.html.md.erb`.
+## Benefits
 
-If you want slightly more control, you can always use <strong>HTML</strong>.
+GovWifi is a single wifi login which can be simply and cheaply installed by government departments over their existing infrastructure.
 
-For more detail and troubleshooting, take a look at the `README.md` file in the root of this project.
+Anyone who registers with GovWifi will have access to wifi at any participating public sector location. It’s available to civil servants, consultants and visitors to government departments. Users register once. After that, they’ll automatically connect to the GovWifi network.
+
+## Adoption rate
+
+GovWifi currently has over 160,000 registered users, and around 50,000unique users every day.
+
+For more information see GovWifi’s page on the GOV.UK Performance Platform.
+
+# Before you start
+
+## Check if GovWifi is right for you
+## Terms and conditions
+## Privacy notice
+
+# Requirements
+
+## Administrator requirements
+## Provide support
+## Hardware recommended on network infrastructure
+## Wireless AP configuration
+## Security
+
+# Phase 1: Create a new wifi installation
+
+## Step 1: Apply to create a new GovWifi
+## Step 2: Establish your public IP addresses
+## Step 3: Register your site to GovWifi
+## Step 4: Configure your infrastructure
