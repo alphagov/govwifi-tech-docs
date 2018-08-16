@@ -1,0 +1,6 @@
+---
+applications:
+  - name: govwifi-product-page
+    memory: 64M
+    path: ./build
+    buildpack: staticfile_buildpack
