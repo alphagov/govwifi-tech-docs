@@ -1,7 +1,7 @@
 GIT
   remote: git://github.com/alphagov/middleman-search.git
   revision: 19df7578dc20621b60dfbc5e4dc986ac4f064c6b
-  ref: 19df7578dc20621b60dfbc5e4dc986ac4f064c6b
+  ref: 19df7
   specs:
     middleman-search (0.10.0)
       execjs (~> 2.6)
