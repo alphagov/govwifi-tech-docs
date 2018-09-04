@@ -4,14 +4,12 @@ host: docs.govwifi.service.gov.uk
 # Header-related options
 show_govuk_logo: true
 service_name: GovWifi
-service_link: https://www.larry-the-cat.service.gov.uk
+service_link: https://govwifi-product-page.cloudapps.digital/
 
 # Links to show on right-hand-side of header
 header_links:
-  About: https://www.larry-the-cat.service.gov.uk
-  Get Started: https://www.larry-the-cat.service.gov.uk/get-started
   Documentation: /
-  Support: https://www.larry-the-cat.service.gov.uk/support
+  Sign In: https://admin-platform.wifi.service.gov.uk/
 
 # Enables search functionality. This indexes pages only and is not recommended for single-page sites.
 enable_search: true
