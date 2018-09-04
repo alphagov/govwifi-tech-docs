@@ -10,6 +10,8 @@ You’ll receive an encrypted PDF file which contains the report you requested. 
 
 ### Site configuration information
 
+> DEPRECATED: You can view your site configuration information in [GovWifi Admin](https://admin-platform.wifi.service.gov.uk/). Email workflow will be turned off in the near future.
+
 Send an email to newsite@wifi.service.gov.uk with the name of the site in the subject field. You’ll receive the current RADIUS secret and authorised IP addresses for that site.
 
 ### Log traffic, detect malware and block users
