@@ -9,4 +9,6 @@ RUN bundle install
 
 COPY . .
 
+EXPOSE 4567
+
 RUN bundle exec middleman build
