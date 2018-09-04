@@ -1,20 +1,27 @@
 # Before you start
 ## Check if GovWifi is right for you
-### Access across UK government
+
+**Access across UK government**
+
 Everyone who has signed up for GovWifi elsewhere will have access to your GovWifi network
 You can use it as a guest wifi making it easier for guests to get online
-### Pricing
+
+**Pricing**
+
 GovWifi is free to use for government and public sector organisations and arm’s length bodies
 GovWifi is an authentication service and therefore will not be responsible for maintenance or support requests
 Costs associated with GovWifi could include:
 - time spend for developer work
 - testing GovWifi, which may be outside your existing service agreement with your wireless provider, such as BT or Cisco
 - support desk and time being spent on user support queries
-### Technology
+
+**Technology**
+
 GovWifi is an authentication service and runs over existing infrastructure
 Set up and maintenance as well as scaling GovWifi will need an IT team - this might be your local team or contactors
 
-## Terms and conditions
+**Terms and conditions**
+
 Administrators must make sure their wifi meets these requirements
 
 Memorandum of Understanding
@@ -22,7 +29,7 @@ You will need to sign the Memorandum of Understanding (MoU) before joining GovWi
 
 [download MOU link]
 
-### GovWifi Terms and conditions for end users
+**GovWifi Terms and conditions for end users**
 
 End users must agree to the [GovWifi Terms and Conditions](https://www.gov.uk/government/publications/terms-and-conditions-for-connecting-to-govwifi/terms-and-conditions-for-connecting-to-govwifi) before using the service. Be aware that this is a guideline only. More specific policies are being implemented by the organisation that is providing GovWifi network.
 By connecting to GovWifi, you agree to the following terms and conditions:
@@ -54,14 +61,16 @@ By connecting to GovWifi, you agree to the following terms and conditions:
 
 Administrators and end users should read the GovWifi [privacy notice](https://www.gov.uk/government/publications/govwifi-privacy-notice) before using the service.
 
-### Who we are
+**Who we are**
+
 GovWifi is a secure wifi service. It provides wifi access in government buildings. GovWifi is developed and provided by the Government Digital Service (GDS), which is part of the Cabinet Office.
 
 GovWifi is currently in public beta, which means we’re still testing and improving it.
 
 The data controller for GDS is the Cabinet Office. They determine how and why personal data is processed. [Read the Cabinet Office’s entry in the Data Protection Public Register](https://ico.org.uk/ESDWebPages/Entry/Z7414053) for more information.
 
-### What data we need
+**What data we need**
+
 In order that GovWifi can work effectively for you we need the following data:
 
 - email address OR mobile telephone number
@@ -72,7 +81,7 @@ We also identify the buildings in which you access GovWifi.
 
 The legal reason we process this data is to let users in government, arm’s length bodies and public sector organisations stay connected to a secure wifi service while visiting other departments and moving between buildings.
 
-### Why we need it
+**Why we need it**
 
 We need to know when you last used GovWifi so we can delete your account if it has not been used for 12 months.
 
@@ -80,7 +89,7 @@ We need to know your email address or mobile phone number so that we can notify 
 
 In accepting the terms and conditions of use you agree to the acceptable use policy of your host organisation. That organisation may restrict access for lawful purposes. We are obliged to be able to identify users who do not comply with these terms and conditions so access can be restricted/terminated.
 
-### What we do with it
+**What we do with it**
 
 GDS will share this information with any host organisation from which you access the service if they request it.
 
@@ -90,13 +99,15 @@ GDS may occasionally contact you by email or text message, using the information
 - changes to these terms and conditions
 - requests for feedback to improve GovWifi
 
-### We will not
+**We will not**
+
 - sell or rent your data to third parties
 - share your data with third parties for marketing purposes
 
 We will share your data if we are required to by law – for example, by court order, or to prevent fraud or other crime.
 
-### How long we keep your data
+**How long we keep your data**
+
 We will only retain your personal data for as long as:
 
 - the law requires us to
@@ -104,20 +115,21 @@ We will only retain your personal data for as long as:
 
 We will keep your contact details for as long as you are using GovWifi. After one year’s inactivity these will be deleted. We will keep your usage details (number of times you have accessed GovWifi and locations) for 90 days.
 
-### Children’s privacy protection
+**Children’s privacy protection**
 
 Our services are not designed for, or intentionally targeted at, children 13 years of age or younger. It is not our policy to intentionally collect or maintain data about anyone under the age of 13.
 
-### Where it might go
+**Where it might go**
 
 We design, build and run our systems to make sure that your data is as safe as possible at any stage, both while it’s processed and when it’s stored.
 
 GDS will not process your personal data, or transfer it, outside of the [European Economic Area](https://www.gov.uk/eu-eea) (EEA).
 
-### How we protect your data and keep it secure
+**How we protect your data and keep it secure**
+
 We are committed to keeping your data secure. We set up systems and processes to prevent unauthorised access or disclosure of the data we collect about you – for example, we protect your data using varying levels of encryption. We also make sure that third parties we deal with have an obligation to keep all personal data they process on our behalf secure.
 
-### What are your rights
+**What are your rights**
 
 You have the right to request:
 
@@ -130,11 +142,11 @@ You have the right to request:
 
 If you have any of these requests, get in contact with our Data Protection Officer. Contact details can be found below.
 
-### Changes to this notice
+**Changes to this notice**
 
 We may modify or amend this privacy notice at our discretion at any time. When we make changes to this notice, we will amend the last modified date at the top of this page. Any modification or amendment to this privacy notice will be applied to you and your data as of that revision date. If these changes affect how your personal data is processed, GDS will take reasonable steps to make sure you know.
 
-### How to contact us
+**How to contact us**
 
 The data controller for your personal data is the Cabinet Office.
 
@@ -143,7 +155,7 @@ Contact the Data Protection Officer if you either:
 - have any questions about anything in this document
 - think that your personal data has been misused or mishandled
 
-### Data Protection Officer
+**Data Protection Officer**
 Cabinet Office
 
 70 Whitehall
@@ -156,7 +168,7 @@ SW1A 2AS
 
 If you have a complaint, you can also contact the [Information Commissioner](https://ico.org.uk/), who is an independent regulator set up to uphold information rights.
 
-#### Information Commissioner's Office
+**Information Commissioner's Office**
 
 Wycliffe House
 

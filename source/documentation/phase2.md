@@ -28,11 +28,11 @@ You must configure:
 
 You should deploy profiles to your managed devices for automatic certificate checking. Use mobile device management solutions across multiple platforms, or operating system specific mechanisms such as Windows Group Policy or Apple Profile Manager.
 
-## Get the XML profile for Windows
+**Get the XML profile for Windows**
 
 Copy and paste this XML file to a network location available to users. Devices with this profile installed will automatically check the certificate. The user just needs to enter their details once they have signed up to the service.
 
-## Deploy XML profile to managed devices
+**Deploy XML profile to managed devices**
 
 Add the following to your users’ login script:
 
@@ -42,7 +42,7 @@ Replace the filename with the full path to the profile.
 
 Read about Active Directory Group Policy and [how to create certificate profiles in configuration manager](https://docs.microsoft.com/en-us/previous-versions/system-center/system-center-2012-R2/dn270541(v=technet.10)).
 
-## Prioritise GovWifi profile Default behaviour on operating systems
+**Prioritise GovWifi profile Default behaviour on operating systems**
 
 GovWifi must be the highest priority service set identifier (SSID) in your organisation, except for SSIDs that provide access to privileged networks using device certificates.
 
@@ -51,7 +51,7 @@ Add the following to your users’ login script (you may need to change the inte
 netsh wlan set profileorder name="GovWifi" interface="Wi-Fi" priority=1
 
 
-### Default behaviour on operating systems
+**Default behaviour on operating systems**
 
 The table below shows the default behaviour when connecting to GovWifi on different operating systems.
 

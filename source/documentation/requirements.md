@@ -5,7 +5,7 @@ To make sure GovWifi provides a consistent user experience across all locations,
 - meet the 9 administrator requirements listed below
 - work towards the hardware recommendations below
 
-## Administrator requirements
+## Administrator
 
 - You must have an IT support team available to answer GovWifi support queries from visitors to your locations.
 - Your wifi access controllers must be able to point to one or more RADIUS servers.
@@ -19,7 +19,7 @@ To make sure GovWifi provides a consistent user experience across all locations,
 - You must ensure there’s enough uplink bandwidth from APs to the building switch infrastructure to allow full use of the internet bandwidth by all users.
 - Configure your managed devices to connect to GovWifi.
 
-## Provide support
+## Support
 
 You must provide technical support to users of devices you manage, even if they are in a different building. You should provide a ‘best effort’ support service for unmanaged devices trying to connect to your wifi infrastructure.
 
@@ -36,7 +36,8 @@ GovWifi is intended to work with your existing hardware. However, if you choose 
 - use 802.11at - type 2 capable switches to power the access points and allow easier upgrade to future wireless technologies
 - use Wi-Fi [Voice Enterprise](http://www.wi-fi.org/discover-wi-fi/wi-fi-certified-voice-programs) or equivalent if voice support is required
 
-### Wireless AP configuration
+**Wireless AP configuration**
+
 Deploy centrally managed access point (AP) hardware, each with at least 5 GHz frequency band and 802.11ac support. Configure your wireless APs to:
 
 - use a high minimum basic data rate
@@ -55,22 +56,26 @@ Use common standards and protocols on your wireless APs to ensure you:
 - enable ‘band steering’ which works by regulating probe responses to clients and making 5 GHz channels appear more attractive to clients by delaying probe responses to clients on 2.4 GHz
 - support smoother roaming for devices on the move using 802.11r
 
-### Bandwidth
+**Bandwidth**
 
 You must provide a suitable amount of internet bandwidth for the anticipated number of users. Plan for 50% of the AP vendor’s recommended client device count per AP radio. Stay well under the vendor’s published maximum figure (for example, one access point per block of 20 users, located in the middle of each group).
 
-### Network’s client’s separation
+**Network’s client’s separation**
 
 Wireless Client Isolation is a security feature that prevents wireless clients from communicating with one another.
 
-### WPA2 Enterprise with AES encryption
+**WPA2 Enterprise with AES encryption**
+
 WPA2 replaced WPA. WPA2, which requires testing and certification by the Wi-Fi Alliance, implements the mandatory elements of IEEE 802.11i. In particular, it includes mandatory support for CCMP, an AES-based encryption mode with strong security. Certification began in September, 2004, WPA2 certification is mandatory for all new devices to bear the Wi-Fi trademark.
 
-### Basic level of DNS filtering
+**Basic level of DNS filtering**
+
 You must provide an internet connection with a basic content filtering service to all wifi users. The UK public sector DNS is an appropriate solution.
 
-### Security
+**Security**
+
 - You are responsible for configuring content filtering, firewall controls according to your local policies.
 - Misuse of GovWifi according to the acceptable use policy should be dealt with using your local access controls to remove access to that device.
 - We do not provide a centralised acceptable usage policy across all GovWifi, instead each organisation should be configuring their own.
-## Wireless AP configuration Security
+
+**Wireless AP configuration Security**
