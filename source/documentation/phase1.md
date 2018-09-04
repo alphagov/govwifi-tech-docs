@@ -1,8 +1,7 @@
 # Phase 1: Create a new wifi installation
 
-## Step 1: Apply to create a new GovWifi
-### Step 1 - Apply to create a new GovWifi
-#### installation
+## Apply to create a new GovWifi
+
 Complete and electronically sign this [application form](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/675990/GovWifi_-_create_a_new_installation.odt) (ODT, 17.1KB) to request an installation. You must do this so the GovWifi team can approve your application to create a new installation.
 
 Send the completed document to [govwifi-support@digital.cabinet-office.gov.uk](govwifi-support@digital.cabinet-office.gov.uk). In the email body, you must include:
@@ -13,11 +12,11 @@ Send the completed document to [govwifi-support@digital.cabinet-office.gov.uk](g
 
 The GovWifi team will contact you when your application has been approved. Do not proceed to step 2 until you’ve received confirmation.
 
-## Step 2: Establish your public IP addresses
+## Establish your public IP addresses
 
 Remote Authentication Dial-In User Service (RADIUS) traffic usually originates from the management interface of your wifi controller. Find out if you have an existing network address translation (NAT) rule, or whether you need a new one. If you have multiple internet connections it may be possible for traffic to originate from a different IP address in the event of a primary link failure. Make sure you add all your IP addresses if you have multiple internet connections.
 
-## Step 3: Register your site to GovWifi
+## Register your site to GovWifi
 
 > DEPRECATED: Registration of new sites is handled now by [GovWifi Admin](https://admin-platform.wifi.service.gov.uk/). Email workflow will be turned off in the near future.
 
@@ -35,37 +34,11 @@ You’ll receive an encrypted PDF via email that contains configuration details 
 
 You can start using the service the day after you register your site, because the RADIUS servers update overnight.
 
-### Get confirmation of your current settings
+## Configure your infrastructure
 
-> DEPRECATED: You can view your site configuration information in [GovWifi Admin](https://admin-platform.wifi.service.gov.uk/). Email workflow will be turned off in the near future.
+> Your secret key, RADIUS IP addresses and more can now be viewed in [GovWifi Admin](https://admin-platform.wifi.service.gov.uk/).
 
-If you need confirmation of your current settings, send an email from the individual email address you registered in step 1 to newsite@wifi.service.gov.uk - this is an automated service.
-
-Your email must include:
-
-- exactly the same subject line as your original request
-- a blank body field
-
-You’ll receive a new encrypted PDF which contains your settings via email. The password to decrypt this file will be sent to your phone in a text message.
-
-### Add a new IP address to an existing site
-
-> DEPRECATED: Adding new IP addresses to sites is handled now by [GovWifi Admin](https://admin-platform.wifi.service.gov.uk/). Email workflow will be turned off in the near future.
-
-You can add multiple IP addresses to a single site. For example, if you change internet service provider and have a new IP to use. To add a new address, send a request from the individual email address you registered in step 1 to newsite@wifi.service.gov.uk - this is an automated service.
-
-Your email must include:
-
-- exactly the same text in the subject field as the email you sent in step 3
-- the additional IP address on the first line
-
-By using the same text, the service will use the same secret key as your other IP addresses You’ll receive an email with an encrypted PDF file which contains a list of all IP addresses at that site, including the new IP addresses. The password to decrypt this file will be sent to your phone in a text message.
-
-### Step 4 - Configure your infrastructure
-
-> DEPRECATED: Your secret key, RADIUS IP addresses and more can now be viewed in [GovWifi Admin](https://admin-platform.wifi.service.gov.uk/). You will receive an ecnrypted PDF only if you're following the old email flow.
-
-1. Create a firewall rule to allow traffic on UDP ports 1812 and 1813 to reach the RADIUS IP addresses assigned to you received in the encrypted PDF.
+1. Create a firewall rule to allow traffic on UDP ports 1812 and 1813 to reach the RADIUS IP addresses assigned to you.
 
 2. Create a NAT rule if one doesn’t already exist so your wifi controller (or access points for cloud-managed devices) can reach the internet via the IP addresses you specified when you registered your site.
 

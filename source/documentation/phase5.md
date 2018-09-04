@@ -1,20 +1,15 @@
 # Phase 5: Maintain GovWifi
 
-## Request information
+## Viewing logs
 
-### Logs and reports
+TBC
 
-Send an email to logrequest@wifi.service.gov.uk with the type of report you want in the subject field (the body text is ignored). You’ll receive a reply based on what you have included in your subject field.
+**Site configuration information**
 
-You’ll receive an encrypted PDF file which contains the report you requested. The password to decrypt this file will be sent to your phone in a text message.
+You can view your site configuration information in [GovWifi Admin](https://admin-platform.wifi.service.gov.uk/)
+TBC
 
-### Site configuration information
-
-> DEPRECATED: You can view your site configuration information in [GovWifi Admin](https://admin-platform.wifi.service.gov.uk/). Email workflow will be turned off in the near future.
-
-Send an email to newsite@wifi.service.gov.uk with the name of the site in the subject field. You’ll receive the current RADIUS secret and authorised IP addresses for that site.
-
-### Log traffic, detect malware and block users
+**Log traffic, detect malware and block users**
 
 GovWifi provides a set of private credentials to a user which is used to generate a unique encryption key. This protects the user’s privacy and prevents their device from attack.
 
@@ -22,7 +17,10 @@ Traffic monitoring and logging is performed by the organisation providing the wi
 
 You can [request logs for specific users](https://www.gov.uk/guidance/set-up-govwifi-on-your-infrastructure#logs) and, if necessary, deny service to them by blocking their hardware address on your infrastructure. In the event of a serious issue contact GovWifi support for assistance.
 
-## Administration Platform
-## Add locations
-## Change admins
-## Request information
+**Administration Platform**
+
+**Add locations**
+
+**Change admins**
+
+**Request information**
