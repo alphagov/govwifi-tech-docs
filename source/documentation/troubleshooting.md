@@ -2,9 +2,11 @@
 
 ## For support desks
 
-Members of the support and help desk will potentially get support queries from employees or guests that struggle to get access to the GovWifi network. You can download a hard copy of a troubleshooting guideline for dealing and resolving those issues.
+Members of the support and help desk will potentially get support queries from employees or guests that struggle to get access to the GovWifi network.
 
-[DOWNLOAD LINK]
+We plan to provide downloadable troubleshooting guidelines for dealing and resolving those issues, but in the meantime, refer to this documentation.
+
+If you can't resolve the issue locally, contact us at [govwifi-support@digital.cabinet-office.gov.uk](govwifi-support@digital.cabinet-office.gov.uk).
 
 ## For network administrators
 

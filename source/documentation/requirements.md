@@ -78,4 +78,4 @@ You must provide an internet connection with a basic content filtering service t
 - Misuse of GovWifi according to the acceptable use policy should be dealt with using your local access controls to remove access to that device.
 - We do not provide a centralised acceptable usage policy across all GovWifi, instead each organisation should be configuring their own.
 
-**Wireless AP configuration Security**
+<!-- **Wireless AP configuration Security** -->

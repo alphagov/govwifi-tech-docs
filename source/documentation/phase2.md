@@ -49,11 +49,3 @@ GovWifi must be the highest priority service set identifier (SSID) in your organ
 Add the following to your users’ login script (you may need to change the interface name for your environment):
 
 netsh wlan set profileorder name="GovWifi" interface="Wi-Fi" priority=1
-
-
-**Default behaviour on operating systems**
-
-The table below shows the default behaviour when connecting to GovWifi on different operating systems.
-
-[IMAGE HERE]
-

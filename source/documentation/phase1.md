@@ -1,42 +1,26 @@
 # Phase 1: Create a new wifi installation
 
-## Apply to create a new GovWifi
+## Get an account
 
-Complete and electronically sign this [application form](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/675990/GovWifi_-_create_a_new_installation.odt) (ODT, 17.1KB) to request an installation. You must do this so the GovWifi team can approve your application to create a new installation.
+Your department, agency or team must have a GovWifi account. Sign up for an account at the [GovWifi admin platform](https://admin-platform.wifi.service.gov.uk/users/sign_up).
 
-Send the completed document to [govwifi-support@digital.cabinet-office.gov.uk](govwifi-support@digital.cabinet-office.gov.uk). In the email body, you must include:
+To provide you with an account, we need to store some personal data about you. Please see our privacy notice for details.
 
-- the email address and mobile phone number of each person you’d like to set up as an administrator
-- the name of the organisation or group you represent
-- a shared and monitored email address - the GovWifi support team will send service notifications to this address
+Once you have an account, you can access the GovWifi admin platform. This tool allows you to manage your GovWifi configuration.
 
-The GovWifi team will contact you when your application has been approved. Do not proceed to step 2 until you’ve received confirmation.
+If you are having trouble signing up for an account, contact us at [govwifi-support@digital.cabinet-office.gov.uk](govwifi-support@digital.cabinet-office.gov.uk).
 
 ## Establish your public IP addresses
 
-Remote Authentication Dial-In User Service (RADIUS) traffic usually originates from the management interface of your wifi controller. Find out if you have an existing network address translation (NAT) rule, or whether you need a new one. If you have multiple internet connections it may be possible for traffic to originate from a different IP address in the event of a primary link failure. Make sure you add all your IP addresses if you have multiple internet connections.
+Remote Authentication Dial-In User Service (RADIUS) traffic usually originates from the management interface of your wifi controller. Find out if you have an existing network address translation (NAT) rule, or whether you need a new one.
 
-## Register your site to GovWifi
+If you have multiple internet connections it may be possible for traffic to originate from a different IP address in the event of a primary link failure. Make sure you add all your IP addresses if you have multiple internet connections.
 
-> DEPRECATED: Registration of new sites is handled now by [GovWifi Admin](https://admin-platform.wifi.service.gov.uk/). Email workflow will be turned off in the near future.
-
-Send an email from the individual email address you registered in step 1 to newsite@wifi.service.gov.uk - this is an automated service. If you have more than one site, register each site in a separate email.
-
-Your email must include:
-
-- the first line of your government building street address - put this in the subject field
-- the list of public IP addresses that your RADIUS requests will originate from (one on each line) - put this in the body of the email
-- in a separate line, under the IP addresses, write your postcode in the format: Postcode: XXXX XXX
-
-Before you send the email, make sure your email system doesn’t block encrypted attachments.
-
-You’ll receive an encrypted PDF via email that contains configuration details and the RADIUS key to configure your wireless infrastructure. The password to decrypt this file will be sent to your phone in a text message.
-
-You can start using the service the day after you register your site, because the RADIUS servers update overnight.
+You can manage your IP addresses in the [GovWifi admin platform](https://admin-platform.wifi.service.gov.uk/).
 
 ## Configure your infrastructure
 
-> Your secret key, RADIUS IP addresses and more can now be viewed in [GovWifi Admin](https://admin-platform.wifi.service.gov.uk/).
+Your secret key, established IP addresses and more can be managed in the [GovWifi admin platform](https://admin-platform.wifi.service.gov.uk/).
 
 1. Create a firewall rule to allow traffic on UDP ports 1812 and 1813 to reach the RADIUS IP addresses assigned to you.
 
