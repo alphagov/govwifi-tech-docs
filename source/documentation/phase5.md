@@ -2,13 +2,13 @@
 
 ## Viewing logs
 
-Planned features for the [GovWifi admin platform](https://admin-platform.wifi.service.gov.uk/users/sign_up) will display your organisation's usage of GovWifi.
+Planned features for the [GovWifi admin platform](https://admin.wifi.service.gov.uk/users/sign_up) will display your organisation's usage of GovWifi.
 
 In the meantime, if you need logs/information to diagnose a problem, contact us at [govwifi-support@digital.cabinet-office.gov.uk](govwifi-support@digital.cabinet-office.gov.uk).
 
 **Site configuration information**
 
-You can view and update your GovWifi configuration in the [GovWifi admin platform](https://admin-platform.wifi.service.gov.uk/)
+You can view and update your GovWifi configuration in the [GovWifi admin platform](https://admin.wifi.service.gov.uk/)
 
 **Log traffic, detect malware and block users**
 

@@ -6,7 +6,7 @@ Most organisations test a product they want to scale. For GovWifi, we recommend 
 
 - Sign up for a GovWifi by following step 1 of Create a new wifi installation
 - Sign the MoU (contact us at [govwifi-support@digital.cabinet-office.gov.uk](govwifi-support@digital.cabinet-office.gov.uk) for a copy of this document)
-- Add the public IP addresses of your authenticators, using the [GovWifi admin platform](https://admin-platform.wifi.service.gov.uk/), so that they can connect to GovWifi
+- Add the public IP addresses of your authenticators, using the [GovWifi admin platform](https://admin.wifi.service.gov.uk/), so that they can connect to GovWifi
 - Configure your authenticator(s) (e.g. access points) to use the GovWifi RADIUS servers
 - Identify a number of users who will test GovWifi, and collect feedback about the service
 - Make sure there is a local help desk that can deal with incoming support queries
