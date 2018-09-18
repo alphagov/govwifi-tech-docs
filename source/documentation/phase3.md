@@ -1,15 +1,13 @@
 # Phase 3: Test
 
-Most organisations test a product they want to scale. For GovWifi, we recommend a test phase, which you start by signing up for GovWifi. This had following benefits for you:
+Most organisations test a product they want to scale. For GovWifi, we recommend a test phase, changing some subset of your infrastructure to test authenticating users.
 
 ## Steps of testing GovWifi
 
-- Sign up for GovWifi by following step 1 of Create a new wifi installation
-- Sign the MoU
-- Sign up your administrators
-- Add the details of one or two buildings where you’d like to test GovWifi, instructions are here (linking to adding buildings)
-- Install your access points
-- Check to see if the IP is active
+- Sign up for a GovWifi by following step 1 of Create a new wifi installation
+- Sign the MoU (contact us at [govwifi-support@digital.cabinet-office.gov.uk](govwifi-support@digital.cabinet-office.gov.uk) for a copy of this document)
+- Add the public IP addresses of your authenticators, using the [GovWifi admin platform](https://admin-platform.wifi.service.gov.uk/), so that they can connect to GovWifi
+- Configure your authenticator(s) (e.g. access points) to use the GovWifi RADIUS servers
 - Identify a number of users who will test GovWifi, and collect feedback about the service
 - Make sure there is a local help desk that can deal with incoming support queries
 - At the end of the trial collect statistics and performance results
@@ -33,19 +31,10 @@ Tell your employees about the GovWifi test and provide instructions how to use i
 
 **How long to test**
 
-For guest wifi you can do tests for one day. To get the best results, you should do at least 5 tests, over a  2 week period.
+For guest wifi you can do tests for one day. To get the best results, you should do at least 5 tests, over a 2 week period.
 
-**How to measure**
-
-Track the performance on your dashboard. It will give you an indication of how the network is performing. You should also enter manual support requests into the dashboard, so this can be included in the final result of the testing.
-
+<!-- **How to measure**
 **What to do next**
-When the trial is completed, you will receive suggestions how to proceed. Depending on your test results, this might be one of the following:
-
-- All good - you can scale up and go live
-- Make adjustments, run another test
-- We detected performance issues - what can wedo to fix them?
-
 ## General information
 ## How to test
-## How to measure performance
+## How to measure performance -->

@@ -2,7 +2,9 @@
 
 ## Advertise GovWifi
 
-Tell users how to sign up to GovWifi in your organisation. GDS will send you a poster when you register your site.
+Tell users how to sign up to GovWifi in your organisation.
+
+Informational posters are planned, but not yet available.
 
 ## Withdraw legacy services
 

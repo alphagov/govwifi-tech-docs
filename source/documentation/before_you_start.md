@@ -8,9 +8,12 @@ You can use it as a guest wifi making it easier for guests to get online
 
 **Pricing**
 
-GovWifi is free to use for government and public sector organisations and arm’s length bodies
-GovWifi is an authentication service and therefore will not be responsible for maintenance or support requests
+GovWifi is free to use for government and public sector organisations and arm’s length bodies.
+
+GovWifi is an authentication service only - we do not provide support directly to individual users, or assist in setting up or maintaining your local network.
+
 Costs associated with GovWifi could include:
+
 - time spend for developer work
 - testing GovWifi, which may be outside your existing service agreement with your wireless provider, such as BT or Cisco
 - support desk and time being spent on user support queries
@@ -25,9 +28,11 @@ Set up and maintenance as well as scaling GovWifi will need an IT team - this mi
 Administrators must make sure their wifi meets these requirements
 
 Memorandum of Understanding
-You will need to sign the Memorandum of Understanding (MoU) before joining GovWifi. You can download, sign and return the MoU yourself, or send it a colleague to sign. Whoever signs the MoU must have permission to sign off and procure services in your organisations.
+You will need to sign the Memorandum of Understanding (MoU) before joining GovWifi. You can sign it yourself, or send it a colleague to sign.
 
-[download MOU link]
+Whoever signs the MoU must have permission to sign off and procure services in your organisations.
+
+Contact us at [govwifi-support@digital.cabinet-office.gov.uk](govwifi-support@digital.cabinet-office.gov.uk) for a copy of this document.
 
 **GovWifi Terms and conditions for end users**
 
