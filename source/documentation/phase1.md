@@ -2,7 +2,7 @@
 
 ## Get an account
 
-Your department, agency or team must have a GovWifi account. Sign up for an account at the [GovWifi admin platform](https://admin-platform.wifi.service.gov.uk/users/sign_up).
+Your department, agency or team must have a GovWifi account. Sign up for an account at the [GovWifi admin platform](https://admin.wifi.service.gov.uk/users/sign_up).
 
 To provide you with an account, we need to store some personal data about you. Please see our privacy notice for details.
 
@@ -16,11 +16,11 @@ Remote Authentication Dial-In User Service (RADIUS) traffic usually originates f
 
 If you have multiple internet connections it may be possible for traffic to originate from a different IP address in the event of a primary link failure. Make sure you add all your IP addresses if you have multiple internet connections.
 
-You can manage your IP addresses in the [GovWifi admin platform](https://admin-platform.wifi.service.gov.uk/).
+You can manage your IP addresses in the [GovWifi admin platform](https://admin.wifi.service.gov.uk/).
 
 ## Configure your infrastructure
 
-Your secret key, established IP addresses and more can be managed in the [GovWifi admin platform](https://admin-platform.wifi.service.gov.uk/).
+Your secret key, established IP addresses and more can be managed in the [GovWifi admin platform](https://admin.wifi.service.gov.uk/).
 
 1. Create a firewall rule to allow traffic on UDP ports 1812 and 1813 to reach the RADIUS IP addresses assigned to you.
 
