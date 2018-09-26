@@ -2,7 +2,7 @@
 
 ## Your local policy
 
-We recommend you have an **acceptable usage policy** for your local network, which explains which behaviour isn’t acceptable on your network.
+We recommend you write a policy to let users know how to behave on your network ('acceptable usage policy').
 
 Explaining and implementing the consequences - which may include banning users from your local network - is up to you.
 
