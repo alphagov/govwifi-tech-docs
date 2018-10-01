@@ -16,6 +16,6 @@ We will remove users for breaching our [terms of service](https://www.gov.uk/gov
 
 ### Reporting abuse
 
-If you believe a user is breaching our terms of service, please contact us at govwifi-support@digital.cabinet-office.gov.uk.
+If you believe a user is breaching our terms of service, [please contact us via the support page] (https://admin.wifi.service.gov.uk/help).
 
 If a user is breaching the terms repeatedly or sufficiently severely, we will remove them from the service.
