@@ -1,66 +1,24 @@
 # Before you start
-## Check if GovWifi is right for you
 
-**Access across UK government**
+GovWifi is a wifi authentication system that gives users free, secure wifi at participating government and public sector locations.
 
-Everyone who has signed up for GovWifi elsewhere will have access to your GovWifi network
-You can use it as a guest wifi making it easier for guests to get online
-
-**Pricing**
+## Pricing
 
 GovWifi is free to use for government and public sector organisations and arm’s length bodies.
 
-GovWifi is an authentication service only - we do not provide support directly to individual users, or assist in setting up or maintaining your local network.
+However, there may be costs associated with running GovWifi, including:
 
-Costs associated with GovWifi could include:
+- time spent on development
+- testing the service, which may be outside your existing service agreement with your wireless provider
+- responding to support queries
 
-- time spend for developer work
-- testing GovWifi, which may be outside your existing service agreement with your wireless provider, such as BT or Cisco
-- support desk and time being spent on user support queries
+## Memorandum of Understanding
 
-**Technology**
+You’ll need to sign the Memorandum of Understanding (MoU) before joining GovWifi. You can sign it yourself, or send it a colleague to sign.
 
-GovWifi is an authentication service and runs over existing infrastructure
-Set up and maintenance as well as scaling GovWifi will need an IT team - this might be your local team or contactors
+Whoever signs the MoU must have permission to sign off and procure services in your organisation.
 
-**Terms and conditions**
-
-Administrators must make sure their wifi meets these requirements
-
-Memorandum of Understanding
-You will need to sign the Memorandum of Understanding (MoU) before joining GovWifi. You can sign it yourself, or send it a colleague to sign.
-
-Whoever signs the MoU must have permission to sign off and procure services in your organisations.
-
-Contact us at [govwifi-support@digital.cabinet-office.gov.uk](govwifi-support@digital.cabinet-office.gov.uk) for a copy of this document.
-
-**GovWifi Terms and conditions for end users**
-
-End users must agree to the [GovWifi Terms and Conditions](https://www.gov.uk/government/publications/terms-and-conditions-for-connecting-to-govwifi/terms-and-conditions-for-connecting-to-govwifi) before using the service. Be aware that this is a guideline only. More specific policies are being implemented by the organisation that is providing GovWifi network.
-By connecting to GovWifi, you agree to the following terms and conditions:
-1. You’re bound by the acceptable use policy of your host organisation.
-
-2 Public sector workers must comply with the standards of behaviour that are expected by your employer or government organisation, including the [Civil Service Code](https://www.gov.uk/government/publications/civil-service-code/the-civil-service-code) and the [social media guidance for civil servants](https://www.gov.uk/government/publications/social-media-guidance-for-civil-servants/social-media-guidance-for-civil-servants).
-
-3. Your host organisation may:
-- restrict access for lawful purposes
-- set their own acceptable use policies - contact your host organisation for more information on their policies
-4. GDS will store your connection details, including your:
-- email address
-- mobile telephone number
-- authentication attempts
-- activation and last login dates
-- IP address
-5. GDS will share this information with any host organisation from which you access the service, upon their request. GDS does not control, log or otherwise influence your network traffic when you’re authenticated to GovWifi.
-6. GovWifi stores your data on servers within the European Economic Area.
-7. Your data will be stored while your account is active. Your data will be deleted when your account has been inactive for 12 months. You’ll need to sign up to GovWifi again to use it.
-8. GDS may occasionally contact you by email or text message, using the information you’ve provided, to give you important information about the GovWifi service, including:
-- major changes to GovWifi
-- changes to these terms and conditions
-- requests for feedback, in order to improve GovWifi
-9. Contact GDS if you would prefer not to receive messages asking for feedback.
-10. GDS can change these terms and conditions at any time. We’ll tell you about any change by email or text message, at least 10 days before the change happens. GDS will specify the date the change will happen in the message you receive. If you do not accept the change, you must stop using GovWifi.
-11. You must not use this service for any unlawful purposes.  For GovWifi support for your managed device, contact your home organisation’s IT helpdesk. If it’s your own device ask your host organisation if they are able to help you.
+You can download the MoU via the [GovWifi admin platform](https://admin.wifi.service.gov.uk/).
 
 ## Privacy notice
 
@@ -104,7 +62,7 @@ GDS may occasionally contact you by email or text message, using the information
 - changes to these terms and conditions
 - requests for feedback to improve GovWifi
 
-**We will not**
+We will not:
 
 - sell or rent your data to third parties
 - share your data with third parties for marketing purposes
@@ -161,6 +119,7 @@ Contact the Data Protection Officer if you either:
 - think that your personal data has been misused or mishandled
 
 **Data Protection Officer**
+
 Cabinet Office
 
 70 Whitehall
