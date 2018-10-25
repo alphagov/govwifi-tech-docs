@@ -27,10 +27,9 @@ Your secret key, established IP addresses and more can be managed in the [GovWif
 2. Create a NAT rule if one doesn’t already exist so your wifi controller (or access points for cloud-managed devices) can reach the internet via the IP addresses you specified when you registered your site.
 
 3. Create a service set identifier (SSID) with:
-
-- name: GovWifi
-- type: WPA2-Enterprise (AES encryption)
-- inner encryption: MsChapV2
+  - name: GovWifi
+  - type: WPA2-Enterprise (AES encryption)
+  - inner encryption: MsChapV2
 
 4. Configure your Network Access Server (access point) to ensure username privacy.
 
