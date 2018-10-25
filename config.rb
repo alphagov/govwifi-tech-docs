@@ -2,6 +2,8 @@ require 'govuk_tech_docs'
 
 GovukTechDocs.configure(self)
 
+activate :directory_indexes
+
 activate :google_analytics do |ga|
   ga.tracking_id = 'UA-127779891-1'
 
