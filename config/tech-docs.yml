@@ -15,7 +15,9 @@ header_links:
 enable_search: true
 
 # Tracking ID from Google Analytics (e.g. UA-XXXX-Y)
-ga_tracking_id:
+ga_tracking_id: 'UA-127779891-1'
+allow_linker: true
+ga_domain_name: ['docs.wifi.service.gov.uk', 'wifi.service.gov.uk', 'admin.wifi.service.gov.uk']
 
 # Enable multipage navigation in the sidebar
 multipage_nav: true
