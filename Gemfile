@@ -14,3 +14,6 @@ gem 'govuk_tech_docs'
 # Overrride middleman-search with our fork.
 # See: https://github.com/manastech/middleman-search/pull/24
 gem 'middleman-search', git: 'git://github.com/alphagov/middleman-search.git', ref: '19df7'
+
+# Add google analytics
+gem 'middleman-google-analytics', '~> 3.0'
