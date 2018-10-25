@@ -6,11 +6,7 @@ The GovWifi admin platform lets you manage your GovWifi environment. You can add
 
 **Get an account**
 
-Your department, agency or team must have a GovWifi account. Sign up for an account on the [GovWifi admin platform](https://admin.wifi.service.gov.uk/users/sign_up).
-
-To provide you with an account, we need to store some personal data about you. Please see our privacy notice for details.
-
-Once you have an account, you can access the GovWifi admin platform. This tool allows you to manage your GovWifi configuration.
+Your department, agency or team must sign up for a GovWifi admin account on the [GovWifi admin platform](https://admin.wifi.service.gov.uk/users/sign_up).
 
 If you're having problems signing up for an account, contact us at [govwifi-support@digital.cabinet-office.gov.uk](govwifi-support@digital.cabinet-office.gov.uk).
 
@@ -89,25 +85,7 @@ Add the following to your users’ login script (you may need to change the inte
 
 `netsh wlan set profileorder name=“GovWifi” interface=“Wi-Fi” priority=1`
 
-## Step 3 - Test GovWifi
-
-You should test GovWifi on a small scale before rolling it out to the whole organisation.
-
-1. Sign up for GovWifi via the admin platform.
-
-2. Sign and return the Memorandum of Understand we’ll send you once we’ve received your sign up request.
-
-3. Add the public IP addresses of your authenticator access points, using the GovWifi admin platform.
-
-4. Configure your authenticator access point to use the GovWifi RADIUS servers.
-
-5. Identify a number of users who will test GovWifi and sign them up for the service. You should collect information and user feedback about GovWifi usage during the test phase.
-
-6. Present these results to the senior management team and get approval to rollout GovWifi across the organisation.
-
-If you need help during the trial phase, contact the GovWifi team via [govwifi-support@digital.cabinet-office.gov.uk](govwifi-support@digital.cabinet-office.gov.uk).
-
-## Step 4 - Roll out GovWifi
+## Step 3 - Roll out GovWifi
 
 Once you’ve received approval to run GovWifi across your organisation, you can expand the service to cover all users and buildings.
 

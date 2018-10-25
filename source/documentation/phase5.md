@@ -4,12 +4,6 @@
 
 After you’ve successfully deployed GovWifi, consider removing less secure guest wifi services.
 
-## Viewing logs
-
-Planned features for the [GovWifi admin platform](https://admin.wifi.service.gov.uk/users/sign_in) will display your organisation's usage of GovWifi.
-
-In the meantime, if you need logs/information to diagnose a problem, [please contact us via the support page] (https://admin.wifi.service.gov.uk/help).
-
 ## Site configuration information
 
 You can view and update your GovWifi configuration in the [GovWifi admin platform](https://admin.wifi.service.gov.uk/)

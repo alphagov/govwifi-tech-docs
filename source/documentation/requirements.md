@@ -7,7 +7,7 @@ To make sure GovWifi provides a consistent user experience across all locations,
 
 ## Administrator requirements
 
-1. You must have an IT support team available to answer GovWifi support queries.
+1. You must have an IT support team available to answer GovWifi end user support queries.
 2. Your wifi access controllers must be able to point to one or more RADIUS servers.
 3. Your wifi infrastructure must use WPA2-Enterprise (AES) encryption.
 4. Your network must have one or more internet connections with static IP addresses.
