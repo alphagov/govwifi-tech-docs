@@ -9,7 +9,7 @@ service_link: https://wifi.service.gov.uk
 # Links to show on right-hand-side of header
 header_links:
   Documentation: /
-  Sign In: https://admin.wifi.service.gov.uk/users/sign_in
+  Admin: https://admin.wifi.service.gov.uk/users/sign_in
 
 # Enables search functionality. This indexes pages only and is not recommended for single-page sites.
 enable_search: true
