@@ -1,4 +1,5 @@
 require 'govuk_tech_docs'
+require 'middleman-google-analytics'
 
 GovukTechDocs.configure(self)
 
