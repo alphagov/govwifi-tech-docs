@@ -4,6 +4,7 @@
   @include media(desktop) {
     max-width: 960px;
     margin: 0 auto;
+    padding: 9px 0 8px;
   }
 }
 
@@ -30,4 +31,16 @@
 
 .header.header--full-width {
   border-bottom: none;
+}
+
+.header__navigation li {
+  @include media(desktop) {
+    margin: 7px 0 0 18px;
+    min-width: 60px;
+    text-align: right;
+  }
+}
+
+.govuk-logo {
+  margin-right: 5px;
 }
