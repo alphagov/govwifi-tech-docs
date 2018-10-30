@@ -1,1 +1,33 @@
 @import "govuk_tech_docs";
+
+.header.header--full-width .header__container {
+  @include media(desktop) {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}
+
+.toc {
+  @include media(desktop) {
+    padding: 30px 10px 0 0;
+  }
+}
+
+.app-pane__body {
+  @include media(desktop) {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}
+
+.app-pane__body {
+  border-top: none;
+
+  @include media(desktop) {
+    border-top: 10px solid #005ea5;
+  }
+}
+
+.header.header--full-width {
+  border-bottom: none;
+}
