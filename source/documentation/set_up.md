@@ -8,7 +8,6 @@ The GovWifi admin platform lets you manage your GovWifi environment by allowing 
 - Find key performance metrics
 - Get help and support
 
-
 ## Step 1 - Create a new wifi installation
 
 **Get an account**
