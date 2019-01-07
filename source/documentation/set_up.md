@@ -1,6 +1,15 @@
 # Set up GovWifi
 
-The GovWifi admin platform lets you manage your GovWifi environment. You can add and remove IP addresses and team members, get help and find performance metrics.
+The GovWifi admin platform lets you manage your GovWifi environment by allowing you to:
+
+- Add and remove IP addresses
+- Add team members
+- Edit team members permissions
+- Get help and support
+- Find key performance metrics
+- Sign and upload your GovWifi agreement
+- Find the connection details for the GovWifi RADIUS servers
+
 
 ## Step 1 - Create a new wifi installation
 
