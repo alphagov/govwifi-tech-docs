@@ -96,6 +96,6 @@ Once you’ve received approval to run GovWifi across your organisation, you can
 
 Make sure your IT support team is aware of GovWifi and ready to respond to user queries.
 
-You should advertise the service in the locations you’ll roll it out. Posters are available from the [admin portal](https://admin.wifi.service.gov.uk/setup_instructions).
+You should advertise the service in the locations you’ll roll it out. Posters are available from the [admin platform](https://admin.wifi.service.gov.uk/setup_instructions).
 
 
