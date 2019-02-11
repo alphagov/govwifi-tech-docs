@@ -5,6 +5,7 @@ host: docs.wifi.service.gov.uk
 show_govuk_logo: true
 service_name: GovWifi
 service_link: https://wifi.service.gov.uk
+phase: "Beta"
 
 # Links to show on right-hand-side of header
 header_links:
