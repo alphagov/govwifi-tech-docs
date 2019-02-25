@@ -5,9 +5,11 @@
 GovWifi lets public sector workers work in other departments’ and agencies’ buildings without the need to register for the local guest wifi service. It has been designed so that it can replace existing guest wifi services if required. Organisations wanting to use GovWifi for other purposes should contact GDS for advice.
 
 ## GDPR (General Data Protection Requirements)
-GDPR is covered in our Memorandum of Understanding (MoU). To confirm your organisation’s acceptance of these data protection requirements you will need to download and sign the MoU.
+
+GDPR is covered in our Memorandum of Understanding (MoU). To confirm your organisation’s acceptance of these data protection requirements you will need to [download and sign the MoU in the GovWifi Admin Portal](https://admin.wifi.service.gov.uk/).
 
 ## Services and Standards
+
 GDS will provide the GovWifi Authentication Service to the participating organisation to allow Users to self-enrol and connect to the local wifi network. Once enrolled, the credentials created can then be saved to the User’s mobile device and will allow the User to seamlessly access GovWifi in any participating Government location.
 GDS will also provide:
 
@@ -17,6 +19,7 @@ GDS will also provide:
 - guidance on how to configure departmentally-controlled end user devices to connect to the service in any participating location
 
 ## GDS will not be responsible for:
+
 - providing hardware that lets you to access the GovWifi Authentication Service
 - specifying, managing, installing or certifying any changes to existing services and/or network cabling or connections to facilitate or improve access to the GovWifi Authentication Service
 
