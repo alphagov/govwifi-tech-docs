@@ -3,21 +3,28 @@
 To make sure GovWifi provides a consistent user experience across all locations, your organisation’s wifi must:
 
 - meet the administrator requirements
+- work towards the administrator recommendations
 - work towards the hardware recommendations
 
 ## Administrator requirements
 
 1. You must have an IT support team available to answer GovWifi end user support queries.
 2. Your wifi access controllers must be able to point to one or more RADIUS servers.
-3. Your wifi infrastructure must use WPA2-Enterprise (AES) encryption.
-4. Your network must have one or more internet connections with static IP addresses.
-5. Your internet firewall must allow RADIUS to connect to the GovWifi authentication servers - port 1812/User Datagram Protocol (UDP) for authentication requests and optionally 1813/UDP for accounting requests.
-6. Your network must use client isolation to prevent rogue devices from attacking legitimate users.
-7. You must provide authenticated users access to all TCP/UDP ports to cater for visitors who need to connect to legitimate virtual private network (VPN) services.
-8. You must provide an internet connection with a basic content filtering service to all wifi users. The [UK public sector DNS](https://www.gov.uk/guidance/introducing-the-uk-public-sector-dns) is an appropriate solution.
-9. You must provide a suitable amount of internet bandwidth for the anticipated number of users. Plan for 50% of the access point (AP) vendor’s recommended client device count per AP radio. Stay well under the vendor’s published maximum figure (for example, one access point per block of 20 users, located in the middle of each group).
-10. You must ensure there’s enough uplink bandwidth from APs to the building switch infrastructure to allow full use of the internet bandwidth by all users.
-11. Configure your managed devices to connect to GovWifi.
+3. Your network must use one or more static IP addresses for connecting to the RADIUS servers.
+4. Your internet firewall must allow RADIUS to connect to the GovWifi authentication servers - port 1812/User Datagram Protocol (UDP) for authentication requests and optionally 1813/UDP for accounting requests.
+5. You must provide authenticated users access to all TCP/UDP ports to cater for visitors who need to connect to legitimate virtual private network (VPN) services.
+
+## Administrator recommendations
+
+Whilst you aren't required to do these to get set up on GovWifi, they are recommended so as to provide a good quality of service.
+
+1. Your wifi infrastructure should use WPA2-Enterprise (AES) encryption.
+2. Your wifi access controllers should point to two or more RADIUS servers.
+3. Your network should use client isolation to prevent rogue devices from attacking legitimate users.
+4. You should provide an internet connection with a basic content filtering service to all wifi users. The [UK public sector DNS](https://www.gov.uk/guidance/introducing-the-uk-public-sector-dns) is an appropriate solution.
+5. You should provide a suitable amount of internet bandwidth for the anticipated number of users. Plan for 50% of the access point (AP) vendor’s recommended client device count per AP radio. Stay well under the vendor’s published maximum figure (for example, one access point per block of 20 users, located in the middle of each group).
+6. You should ensure there’s enough uplink bandwidth from APs to the building switch infrastructure to allow full use of the internet bandwidth by all users.
+6. You should configure your managed devices to connect to GovWifi.
 
 ## Hardware recommendations
 
