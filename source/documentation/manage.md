@@ -14,16 +14,15 @@ GovWifi provides a set of private credentials to a user which is used to generat
 
 Traffic monitoring and logging is performed by the organisation providing the wireless access points or gateway. You must ensure that traffic logging and monitoring complies with your organisation’s internal legal and operational guidance.
 
-In the event of a serious incident, you can request logs for specific users and, if necessary, deny service to them by blocking their hardware address on your infrastructure. Contact [govwifi-support@digital.cabinet-office.gov.uk](govwifi-support@digital.cabinet-office.gov.uk) for help.
+In the event of a serious incident, you can request logs for specific users and, if necessary, deny service to them by blocking their hardware address on your infrastructure. [Contact us](https://admin.wifi.service.gov.uk/help) for help.
 
 ## Remove a location
 
-If you want to remove GovWifi from one of your sites, please contact us on [govwifi-support@digital.cabinet-office.gov.uk](govwifi-support@digital.cabinet-office.gov.uk).
+If you want to remove GovWifi from one of your sites, please [contact us](https://admin.wifi.service.gov.uk/help).
 
 ## Stop using GovWifi
 
-If your organisation wants to stop using GovWifi entirely, please contact us on[govwifi-support@digital.cabinet-office.gov.uk](govwifi-support@digital.cabinet-office.gov.uk).  
-
+If your organisation wants to stop using GovWifi entirely, please [contact us](https://admin.wifi.service.gov.uk/help).
 
 <!-- **Administration Platform**
 **Add locations**

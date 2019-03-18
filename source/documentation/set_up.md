@@ -14,7 +14,7 @@ The GovWifi admin platform lets you manage your GovWifi environment by allowing 
 
 Your department, agency or team must sign up for a GovWifi admin account on the [GovWifi admin platform](https://admin.wifi.service.gov.uk/users/sign_up).
 
-If you're having problems signing up for an account, contact us at [govwifi-support@digital.cabinet-office.gov.uk](govwifi-support@digital.cabinet-office.gov.uk).
+If you're having problems signing up for an account, [contact us](https://admin.wifi.service.gov.uk/help).
 
 **Establish your public IP addresses**
 
@@ -28,20 +28,21 @@ You can manage your IP addresses in the [GovWifi admin platform](https://admin.w
 
 Your secret key, established IP addresses and more can be managed in the [GovWifi admin platform](https://admin.wifi.service.gov.uk/).
 
-1. Create a firewall rule to allow traffic on UDP ports 1812 and 1813 to reach the RADIUS IP addresses assigned to you.
+1.  Create a firewall rule to allow traffic on UDP ports 1812 and 1813 to reach the RADIUS IP addresses assigned to you.
 
-2. Create a NAT rule if one doesn’t already exist so your wifi controller (or access points for cloud-managed devices) can reach the internet via the IP addresses you specified when you registered your site.
+2.  Create a NAT rule if one doesn’t already exist so your wifi controller (or access points for cloud-managed devices) can reach the internet via the IP addresses you specified when you registered your site.
 
-3. Create a service set identifier (SSID) with:
-  - name: GovWifi
-  - type: WPA2-Enterprise (AES encryption)
-  - inner encryption: MsChapV2
+3.  Create a service set identifier (SSID) with:
 
-4. Configure your Network Access Server (access point) to ensure username privacy.
+- name: GovWifi
+- type: WPA2-Enterprise (AES encryption)
+- inner encryption: MsChapV2
 
-5. If permitted by your infrastructure vendor, set the Network Access Identifier (NAI) for your outer tunnel to be anonymous. See [RFC 7542](https://tools.ietf.org/html/rfc7542) for full details of permitted NAI syntax
+4.  Configure your Network Access Server (access point) to ensure username privacy.
 
-5. Configure the RADIUS servers and secret key. Follow the instructions in the encrypted PDF you received when you registered your site.
+5.  If permitted by your infrastructure vendor, set the Network Access Identifier (NAI) for your outer tunnel to be anonymous. See [RFC 7542](https://tools.ietf.org/html/rfc7542) for full details of permitted NAI syntax
+
+6.  Configure the RADIUS servers and secret key. Follow the instructions in the encrypted PDF you received when you registered your site.
 
 ## Step 2 - Set up managed end user devices
 
@@ -80,7 +81,7 @@ Add the following to your users’ login script:
 
 Replace the filename with the full path to the profile.
 
-Read about how to [create certificate profiles in configuration manager](https://docs.microsoft.com/en-us/previous-versions/system-center/system-center-2012-R2/dn270541(v=technet.10)).
+Read about how to [create certificate profiles in configuration manager](<https://docs.microsoft.com/en-us/previous-versions/system-center/system-center-2012-R2/dn270541(v=technet.10)>).
 
 **Prioritise GovWifi profile default behaviour on operating system**
 
@@ -97,5 +98,3 @@ Once you’ve received approval to run GovWifi across your organisation, you can
 Make sure your IT support team is aware of GovWifi and ready to respond to user queries.
 
 You should advertise the service in the locations you’ll roll it out. Posters are available from the [admin platform](https://admin.wifi.service.gov.uk/setup_instructions).
-
-
