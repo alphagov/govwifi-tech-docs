@@ -17,18 +17,16 @@ resources:
 jobs:
   - name: build
     interruptible: true
-    #disable_manual_trigger: true
+    disable_manual_trigger: true
     plan:
-      - do:
-        - get: src
-          resource: pull-request
-          trigger: true
-          version: every
-        - <<: *update-status-pending
+      - get: src
+        resource: pull-request
+        trigger: true
+        version: every
+      - <<: *update-status-pending
 
       - task: build
         privileged: true
-        image: runner
         file: src/ci/tasks/build.yml
 
     on_failure:
@@ -67,4 +65,3 @@ update-status-commands:
     params:
       <<: *update-status-params-base
       status: success
-
