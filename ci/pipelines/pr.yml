@@ -1,0 +1,67 @@
+# just a high level test to make sure everything builds properly. No actual tests.
+
+resource_types:
+- name: pull-request
+  type: registry-image
+  source:
+    repository: teliaoss/github-pr-resource
+
+resources:
+  - name: pull-request
+    type: pull-request
+    check_every: 1m
+    source:
+      repository: alphagov/govwifi-tech-docs
+      access_token: ((github-access-token))
+
+jobs:
+  - name: build
+    interruptible: true
+    disable_manual_trigger: true
+    plan:
+      - get: src
+        resource: pull-request
+        trigger: true
+        version: every
+      - <<: *update-status-pending
+
+      - task: build
+        privileged: true
+        file: src/ci/tasks/build.yml
+
+    on_failure:
+      do:
+        - <<: *update-status-failure
+    on_success:
+      do:
+        - <<: *update-status-success
+
+
+update-status-commands:
+  update-status-base: &update-status-base
+    put: update-status
+    resource: pull-request
+    get_params:
+      skip_download: true
+
+  update-status-params-base: &update-status-params-base
+    path: src
+    context: 'pr'
+
+  update-status-pending: &update-status-pending
+    <<: *update-status-base
+    params:
+      <<: *update-status-params-base
+      status: pending
+
+  update-status-failure: &update-status-failure
+    <<: *update-status-base
+    params:
+      <<: *update-status-params-base
+      status: failure
+
+  update-status-success: &update-status-success
+    <<: *update-status-base
+    params:
+      <<: *update-status-params-base
+      status: success
