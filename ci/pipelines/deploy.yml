@@ -15,14 +15,17 @@ resources:
 
 jobs:
   - name: deploy
-    - get: src
-      resource: govwifi-tech-docs
-      trigger: true
+    plan:
+      - get: src
+        resource: govwifi-tech-docs
+        trigger: true
 
-    - task: deploy
-      privileged: true
-      image: runner
-      file: src/ci/tasks/deploy.yml
-      params:
-        CF_USER: ((govpaas-username))
-        CF_PASS: ((govpaas-password))
+      - get: runner
+
+      - task: deploy
+        privileged: true
+        image: runner
+        file: src/ci/tasks/deploy.yml
+        params:
+          CF_USER: ((govpaas-username))
+          CF_PASS: ((govpaas-password))
