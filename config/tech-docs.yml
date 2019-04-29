@@ -9,8 +9,9 @@ phase: "Beta"
 
 # Links to show on right-hand-side of header
 header_links:
-  Documentation: /
-  Support: https://admin.wifi.service.gov.uk/help
+  Connect to GovWifi: https://www.wifi.service.gov.uk/about-govwifi/connect-to-govwifi
+  Offer GovWifi: https://docs.wifi.service.gov.uk/
+  Support: https://www.wifi.service.gov.uk/support
   Admin: https://admin.wifi.service.gov.uk/users/sign_in
 
 # Enables search functionality. This indexes pages only and is not recommended for single-page sites.
