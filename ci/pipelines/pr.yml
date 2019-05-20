@@ -6,7 +6,7 @@ groups:
   - build
 - name: self-update
   jobs:
-  - self-updater
+  - self-update
 
 resource_types:
 - name: pull-request
