@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>GovWifi</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>476F7657696669</hex>
+			<name>GovWifi</name>
+		</SSID>
+		<nonBroadcast>false</nonBroadcast>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>auto</connectionMode>
+	<autoSwitch>true</autoSwitch>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2</authentication>
+				<encryption>AES</encryption>
+				<useOneX>true</useOneX>
+				<FIPSMode xmlns="http://www.microsoft.com/networking/WLAN/profile/v2">false</FIPSMode>
+			</authEncryption>
+			<PMKCacheMode>enabled</PMKCacheMode>
+			<PMKCacheTTL>720</PMKCacheTTL>
+			<PMKCacheSize>128</PMKCacheSize>
+			<preAuthMode>disabled</preAuthMode>
+			<OneX xmlns="http://www.microsoft.com/networking/OneX/v1">
+				<cacheUserData>true</cacheUserData>
+				<authMode>user</authMode>
+				<EAPConfig>
+					<EapHostConfig xmlns="http://www.microsoft.com/provisioning/EapHostConfig">
+						<EapMethod>
+							<Type xmlns="http://www.microsoft.com/provisioning/EapCommon">25</Type>
+							<VendorId xmlns="http://www.microsoft.com/provisioning/EapCommon">0</VendorId>
+							<VendorType xmlns="http://www.microsoft.com/provisioning/EapCommon">0</VendorType>
+							<AuthorId xmlns="http://www.microsoft.com/provisioning/EapCommon">0</AuthorId>
+						</EapMethod>
+						<Config xmlns="http://www.microsoft.com/provisioning/EapHostConfig">
+							<Eap xmlns="http://www.microsoft.com/provisioning/BaseEapConnectionPropertiesV1">
+								<Type>25</Type>
+								<EapType xmlns="http://www.microsoft.com/provisioning/MsPeapConnectionPropertiesV1">
+									<ServerValidation>
+										<DisableUserPromptForServerValidation>true</DisableUserPromptForServerValidation>
+										<ServerNames>wifi.service.gov.uk</ServerNames>
+										<TrustedRootCA>de 28 f4 a4 ff e5 b9 2f a3 c5 03 d1 a3 49 a7 f9 96 2a 82 12 </TrustedRootCA>
+										<TrustedRootCA>32 3c 11 8e 1b f7 b8 b6 52 54 e2 e2 10 0d d6 02 90 37 f0 96 </TrustedRootCA>
+										<TrustedRootCA>03 9e ed b8 0b e7 a0 3c 69 53 89 3b 20 d2 d9 32 3a 4c 2a fd </TrustedRootCA>
+									</ServerValidation>
+									<FastReconnect>true</FastReconnect>
+									<InnerEapOptional>false</InnerEapOptional>
+									<Eap xmlns="http://www.microsoft.com/provisioning/BaseEapConnectionPropertiesV1">
+										<Type>26</Type>
+										<EapType xmlns="http://www.microsoft.com/provisioning/MsChapV2ConnectionPropertiesV1">
+											<UseWinLogonCredentials>false</UseWinLogonCredentials>
+										</EapType>
+									</Eap>
+									<EnableQuarantineChecks>false</EnableQuarantineChecks>
+									<RequireCryptoBinding>false</RequireCryptoBinding>
+									<PeapExtensions>
+										<PerformServerValidation xmlns="http://www.microsoft.com/provisioning/MsPeapConnectionPropertiesV2">true</PerformServerValidation>
+										<AcceptServerName xmlns="http://www.microsoft.com/provisioning/MsPeapConnectionPropertiesV2">true</AcceptServerName>
+										<IdentityPrivacy xmlns="http://www.microsoft.com/provisioning/MsPeapConnectionPropertiesV2">
+											<EnableIdentityPrivacy>true</EnableIdentityPrivacy>
+											<AnonymousUserName>anonymous</AnonymousUserName>
+										</IdentityPrivacy>
+									</PeapExtensions>
+								</EapType>
+							</Eap>
+						</Config>
+					</EapHostConfig>
+				</EAPConfig>
+			</OneX>
+		</security>
+	</MSM>
+</WLANProfile>
