@@ -71,7 +71,7 @@ You should deploy profiles to your managed devices for automatic certificate che
 
 **Get the XML profile for Windows**
 
-Copy and paste [this XML file](https://raw.githubusercontent.com/alphagov/govwifi/master/profiles/windows-WLANProfile.xml) to a network location available to users. Devices with this profile installed will automatically check the certificate. The user just needs to enter their details once they have signed up to the service.
+Copy and paste [this XML file](/assets/govwifi-profile.xml) to a network location available to users. Devices with this profile installed will automatically check the certificate. The user just needs to enter their details once they have signed up to the service.
 
 **Deploy XML profile to managed devices**
 
