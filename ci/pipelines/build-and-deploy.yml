@@ -1,0 +1,145 @@
+groups:
+- name: self-update
+  jobs:
+  - self-update
+- name: deployer
+  jobs:
+  - deploy
+- name: pr
+  jobs:
+    - build
+
+resource_types:
+- name: pull-request
+  type: registry-image
+  source:
+    repository: teliaoss/github-pr-resource
+
+resources:
+  - name: tech-ops
+    type: git
+    source:
+      uri: https://github.com/alphagov/tech-ops.git
+
+  - name: govwifi-tech-docs
+    type: git
+    source:
+      uri: "https://github.com/alphagov/govwifi-tech-docs.git"
+      branch: master
+
+  - name: govwifi-tech-docs-pr
+    type: pull-request
+    check_every: 1m
+    source:
+      repository: alphagov/govwifi-tech-docs
+      access_token: ((github-access-token))
+      disable_forks: true
+
+  - name: deploy-to-paas
+    # See https://github.com/alphagov/tech-ops/blob/master/reliability-engineering/pipelines/internal-apps.yml
+    type: cf
+    source:
+      api: "https://api.cloud.service.gov.uk"
+      organization: "govwifi"
+      space: "production"
+      username: ((govpaas-username))
+      password: ((govpaas-password))
+      skip_cert_check: false
+
+jobs:
+  - name: self-update
+    serial: true
+    plan:
+    - get: tech-ops
+      params:
+        submodules: none
+    - get: govwifi-tech-docs
+      trigger: true
+    - task: set-pipelines
+      file: tech-ops/ci/tasks/self-updating-pipeline.yaml
+      input_mapping: {repository: govwifi-tech-docs}
+      params:
+        CONCOURSE_TEAM: govwifi
+        CONCOURSE_PASSWORD: ((readonly_local_user_password))
+        PIPELINE_PATH: ci/pipelines/build-and-deploy.yml
+        PIPELINE_NAME: tech-docs
+
+  - name: build
+    interruptible: true
+    disable_manual_trigger: true
+    serial: true
+    plan:
+      - get: govwifi-tech-docs-pr
+        trigger: true
+        version: every
+      - put: govwifi-tech-docs-pr
+        params:
+          status: pending
+          path: govwifi-tech-docs-pr
+      - task: bundle-govwifi-tech-docs-pr
+        timeout: 15m
+        config:
+          platform: linux
+          image_resource:
+            type: docker-image
+            source:
+              repository: gdsre/aws-ruby
+              tag: 2.6.1-3.0.1
+          inputs:
+            - name: govwifi-tech-docs-pr
+              path: repo
+          run:
+            path: sh
+            dir: repo
+            args:
+            - -c
+            - |
+              apt-get update
+              apt-get install -y nodejs
+              bundle install --without development
+              bundle exec middleman build
+    on_success:
+      put: govwifi-tech-docs-pr
+      params:
+        path: govwifi-tech-docs-pr
+        status: success
+    on_failure:
+      put: govwifi-tech-docs-pr
+      params:
+        path: govwifi-tech-docs-pr
+        status: failure
+  - name: deploy
+    serial: true
+    plan:
+      - get: govwifi-tech-docs
+        trigger: true
+      - task: bundle-govwifi-tech-docs
+        timeout: 15m
+        config:
+          platform: linux
+          image_resource:
+            type: docker-image
+            source:
+              repository: gdsre/aws-ruby
+              tag: 2.6.1-3.0.1
+          inputs:
+            - name: govwifi-tech-docs
+              path: repo
+          outputs:
+            - name: bundled
+          run:
+            path: sh
+            dir: repo
+            args:
+            - -c
+            - |
+              apt-get update
+              apt-get install -y nodejs
+              bundle install --without development
+              bundle exec middleman build
+              cp -r . ../bundled/
+      - put: deploy-to-paas
+        params:
+          manifest: bundled/manifest.yml
+          show_app_log: true
+          path: bundled
