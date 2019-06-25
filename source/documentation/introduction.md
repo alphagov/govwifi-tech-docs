@@ -1,4 +1,4 @@
-# Before you offer GovWifi
+# Offer GovWifi
 
 Use this technical documentation to find out how to:
 
