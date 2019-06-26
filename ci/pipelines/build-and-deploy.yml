@@ -25,11 +25,9 @@ resources:
     type: git
     source:
       uri: "https://github.com/alphagov/govwifi-tech-docs.git"
-      branch: master
 
   - name: govwifi-tech-docs-pr
     type: pull-request
-    check_every: 1m
     source:
       repository: alphagov/govwifi-tech-docs
       access_token: ((github-access-token))
@@ -44,7 +42,6 @@ resources:
       space: "production"
       username: ((govpaas-username))
       password: ((govpaas-password))
-      skip_cert_check: false
 
 jobs:
   - name: self-update
@@ -62,7 +59,7 @@ jobs:
         CONCOURSE_TEAM: govwifi
         CONCOURSE_PASSWORD: ((readonly_local_user_password))
         PIPELINE_PATH: ci/pipelines/build-and-deploy.yml
-        PIPELINE_NAME: tech-docs
+        PIPELINE_NAME: tech-docs-deploy
 
   - name: build
     interruptible: true
@@ -131,6 +128,7 @@ jobs:
             path: sh
             dir: repo
             args:
+            - -eu
             - -c
             - |
               apt-get update
