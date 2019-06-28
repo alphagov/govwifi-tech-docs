@@ -1,24 +1,41 @@
-# Manage GovWifi
+# Managing GovWifi
+
+This guidance explains how admins can manage GovWifi for their organisation.
+
 
 ## Withdraw legacy services
 
 After you’ve successfully deployed GovWifi, consider removing less secure guest wifi services.
 
-## Site configuration information
+
+## View and update your site configuration
 
 You can view and update your GovWifi configuration in the [GovWifi admin platform](https://admin.wifi.service.gov.uk/)
 
-## Log traffic, detect malware and block users
 
-GovWifi provides a set of private credentials to a user which is used to generate a unique encryption key. This protects the user’s privacy and device.
+## Managing acceptable usage
 
-Traffic monitoring and logging is performed by the organisation providing the wireless access points or gateway. You must ensure that traffic logging and monitoring complies with your organisation’s internal legal and operational guidance.
+You are responsible for setting your own acceptable use policy and configuring content filtering and firewall controls.
+
+
+## Removing users from GovWifi
+
+If you find someone breaching your acceptable use policy, you can remove their access from your local network.
+
+We will remove users for breaching GovWifi’s [terms of service](https://www.gov.uk/government/publications/terms-and-conditions-for-connecting-to-govwifi/terms-and-conditions-for-connecting-to-govwifi). This includes, but is not limited to, illegal activity and breaching the [Civil Service Code](https://www.gov.uk/government/publications/civil-service-code/the-civil-service-code).
+
+
+### Reporting abuse
+
+If you believe a user is breaching the GovWifi terms of service, [please contact us](https://admin.wifi.service.gov.uk/help).
+
+
+## Logging traffic
+
+You’re responsible for traffic monitoring and logging. You must make sure traffic logging and monitoring complies with your organisation’s internal legal and operational guidance.
 
 In the event of a serious incident, you can request logs for specific users and, if necessary, deny service to them by blocking their hardware address on your infrastructure. [Contact us](https://admin.wifi.service.gov.uk/help) for help.
 
-## Remove a location
-
-If you want to remove GovWifi from one of your sites, please [contact us](https://admin.wifi.service.gov.uk/help).
 
 ## Stop using GovWifi
 
