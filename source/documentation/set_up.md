@@ -1,15 +1,15 @@
-## Set up GovWifi
+# Set up GovWifi
 
 Follow these steps to set up and make GovWifi available in your organisation. 
 
-### Step 1 - Create a GovWifi admin account
+## Step 1 - Create a GovWifi admin account
 
 Before you can begin technical set up, you must [sign up for a GovWifi admin account](https://admin.wifi.service.gov.uk/users/sign_up).  
 
 If your organisation is currently not whitelisted to be registered, please [contact us](https://admin.wifi.service.gov.uk/help/new/technical_support).
  
 
-### Step 2 - Sign the GovWifi Memorandum of understanding
+## Step 2 - Sign the GovWifi Memorandum of understanding
 
   
 
@@ -25,7 +25,7 @@ By proceeding to complete GovWifi setup, your organisation also accepts our [pri
 
   
 
-### Step 3 - Create a new wifi installation
+## Step 3 - Create a new wifi installation
 
   
 
@@ -54,7 +54,7 @@ We recommend connecting to all GovWifi RADIUS servers, so you're protected from 
 4. If allowed by your infrastructure vendor, set the Network Access Identifier (NAI) for your outer tunnel to be anonymous. See [RFC 7542](https://tools.ietf.org/html/rfc7542) for full details of permitted NAI syntax. 
 
 
-### Step 4 - Set up managed end user devices
+## Step 4 - Set up managed end user devices
 
 Users must follow the [GovWifi terms and conditions](https://www.gov.uk/government/publications/terms-and-conditions-for-connecting-to-govwifi/terms-and-conditions-for-connecting-to-govwifi) for managed and unmanaged devices.
 
@@ -115,7 +115,7 @@ For example: 
 netsh wlan set profileorder name=“GovWifi” interface=“Wi-Fi” priority=1
 
 
-### Step 5 - Advertise GovWifi in your organisation
+## Step 5 - Advertise GovWifi in your organisation
 
  
 
@@ -127,7 +127,7 @@ You should advertise GovWifi in the locations you’ll roll it out. 
 
  
 
-### Step 6 - Provide GovWifi support
+## Step 6 - Provide GovWifi support
 
  
 
