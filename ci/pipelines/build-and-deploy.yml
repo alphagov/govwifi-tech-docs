@@ -123,7 +123,7 @@ jobs:
             - name: govwifi-tech-docs
               path: repo
           outputs:
-            - name: bundled
+            - name: build
           run:
             path: sh
             dir: repo
@@ -135,9 +135,10 @@ jobs:
               apt-get install -y nodejs
               bundle install --without development
               bundle exec middleman build
-              cp -r . ../bundled/
+              cp -r build/* ../build
+              cp manifest.yml ../build
       - put: deploy-to-paas
         params:
-          manifest: bundled/manifest.yml
+          manifest: build/manifest.yml
           show_app_log: true
-          path: bundled
+          path: build
