@@ -14,6 +14,9 @@ header_links:
   Support: https://www.wifi.service.gov.uk/support
   Admin: https://admin.wifi.service.gov.uk/users/sign_in
 
+footer_links:
+  Accessibility: https://www.wifi.service.gov.uk/accessibility-statement
+
 # Enables search functionality. This indexes pages only and is not recommended for single-page sites.
 enable_search: true
 
