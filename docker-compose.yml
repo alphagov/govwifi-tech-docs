@@ -1,4 +1,10 @@
-app:
-  build: .
-  ports:
-    - "4567:4567"
+version: "3.7"
+
+services:
+  app:
+    build: .
+    volumes:
+      - ".:/usr/src/app"
+    ports:
+      - "4567:4567"
+      - "35729:35729" # LiveReload

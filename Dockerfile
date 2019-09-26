@@ -11,4 +11,7 @@ COPY . .
 
 EXPOSE 4567
 
+# LiveReload
+EXPOSE 35729
+
 RUN bundle exec middleman build
