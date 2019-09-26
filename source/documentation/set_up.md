@@ -123,7 +123,7 @@ You should advertise GovWifi in the locations you’ll roll it out. 
 
  
 
-[Posters](https://admin.wifi.service.gov.uk/setup_instructions) are available from the admin platform with information on how end users can connect to GovWifi in your organisation.
+[Download a poster](https://admin.wifi.service.gov.uk/setup_instructions/poster) (you might need to sign in) with information on how end users can connect to GovWifi in your organisation.
 
  
 
