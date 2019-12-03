@@ -43,7 +43,7 @@
 										<ServerNames>wifi.service.gov.uk</ServerNames>
 										<TrustedRootCA>de 28 f4 a4 ff e5 b9 2f a3 c5 03 d1 a3 49 a7 f9 96 2a 82 12 </TrustedRootCA>
 										<TrustedRootCA>32 3c 11 8e 1b f7 b8 b6 52 54 e2 e2 10 0d d6 02 90 37 f0 96 </TrustedRootCA>
-										<TrustedRootCA>03 9e ed b8 0b e7 a0 3c 69 53 89 3b 20 d2 d9 32 3a 4c 2a fd </TrustedRootCA>
+										<TrustedRootCA>a8 98 5d 3a 65 e5 e5 c4 b2 d7 d6 6d 40 c6 dd 2f b1 9c 54 36 </TrustedRootCA>
 									</ServerValidation>
 									<FastReconnect>true</FastReconnect>
 									<InnerEapOptional>false</InnerEapOptional>
