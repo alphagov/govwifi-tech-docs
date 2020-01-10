@@ -88,7 +88,7 @@ Where PATH_TO_PROFILE is your file path. 
 
 For example: 
 
-netsh wlan add profile filename=“govwifi.xml” user=all
+netsh wlan add profile filename=“govwifi-profile.xml” user=all
 
  
 
