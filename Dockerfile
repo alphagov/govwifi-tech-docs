@@ -4,7 +4,7 @@ WORKDIR /usr/src/app
 
 COPY Gemfile Gemfile.lock .ruby-version ./
 
-RUN apk --update add g++ musl-dev make git nodejs-npm
+RUN apk --update add g++ musl-dev make git nodejs nodejs-npm
 RUN gem install bundler:2.1.4
 RUN bundle install
 COPY . .
@@ -15,4 +15,4 @@ EXPOSE 4567
 EXPOSE 35729
 
 RUN npm install --unsafe-perm
-RUN bundle exec middleman build
+RUN bundle exec middleman build --verbose
