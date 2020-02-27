@@ -94,6 +94,7 @@ jobs:
               apt-get update
               apt-get install -y nodejs
               bundle install --without development
+              npm install --unsafe-perm
               bundle exec middleman build
     on_success:
       put: govwifi-tech-docs-pr
@@ -134,6 +135,7 @@ jobs:
               apt-get update
               apt-get install -y nodejs
               bundle install --without development
+              npm install --unsafe-perm
               bundle exec middleman build
               cp -r build/* ../build
               cp manifest.yml ../build
