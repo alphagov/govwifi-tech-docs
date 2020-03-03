@@ -80,8 +80,8 @@ jobs:
           image_resource:
             type: docker-image
             source:
-              repository: gdsre/aws-ruby
-              tag: 2.6.1-3.0.1
+              repository: governmentpaas/cf-cli
+            version: {digest: "sha256:524554e6bcd9e77e9f3886de0ee2c1307976361a41a009b4690c709afd52812e"}
           inputs:
             - name: govwifi-tech-docs-pr
               path: repo
@@ -91,8 +91,7 @@ jobs:
             args:
             - -c
             - |
-              apt-get update
-              apt-get install -y nodejs
+              apk --update add g++ musl-dev make nodejs nodejs-npm
               bundle install --without development
               npm install --unsafe-perm
               bundle exec middleman build
@@ -118,8 +117,8 @@ jobs:
           image_resource:
             type: docker-image
             source:
-              repository: gdsre/aws-ruby
-              tag: 2.6.1-3.0.1
+              repository: governmentpaas/cf-cli
+            version: {digest: "sha256:524554e6bcd9e77e9f3886de0ee2c1307976361a41a009b4690c709afd52812e"}
           inputs:
             - name: govwifi-tech-docs
               path: repo
@@ -132,8 +131,7 @@ jobs:
             - -eu
             - -c
             - |
-              apt-get update
-              apt-get install -y nodejs
+              apk --update add g++ musl-dev make nodejs nodejs-npm
               bundle install --without development
               npm install --unsafe-perm
               bundle exec middleman build
