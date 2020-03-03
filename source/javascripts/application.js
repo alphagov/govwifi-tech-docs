@@ -4,4 +4,8 @@
 
 window.addEventListener("DOMContentLoaded", function() {
   window.GovWifi.cookies.checkCookiePolicy();
+
+  if (!GovWifi.cookies.isCategoryAllowed("tracking")) {
+    window["ga-disable-UA-127779891-1"] = true;
+  }
 });
