@@ -1,0 +1,23 @@
+{
+  "name": "govwifi-tech-docs",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "GovWifi tech docs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alphagov/govwifi-tech-docs.git"
+  },
+  "author": "Government Digital Service developers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alphagov/govwifi-tech-docs/issues"
+  },
+  "homepage": "https://github.com/alphagov/govwifi-tech-docs#readme",
+  "dependencies": {
+    "govuk-frontend": "^3.5.0",
+    "govwifi-shared-frontend": "https://github.com/alphagov/govwifi-shared-frontend/releases/download/0.6.3/govwifi-shared-frontend-0.6.3.tgz"
+  },
+  "scripts": {
+    "install": "./copy-assets.rb"
+  }
+}

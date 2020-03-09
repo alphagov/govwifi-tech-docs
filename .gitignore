@@ -18,3 +18,8 @@
 .DS_Store
 
 Staticfile.auth
+
+node_modules
+
+# build-time copied assets
+source/javascripts/dist
