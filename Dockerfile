@@ -14,4 +14,4 @@ EXPOSE 4567
 EXPOSE 35729
 
 RUN npm install --unsafe-perm
-RUN bundle exec middleman build --verbose
+RUN bundle exec middleman build
