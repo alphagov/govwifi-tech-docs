@@ -24,4 +24,3 @@ node_modules
 # build-time copied assets
 source/assets
 source/javascripts/dist
-source/javascripts/dist
