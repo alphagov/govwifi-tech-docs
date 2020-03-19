@@ -4,7 +4,7 @@ Public sector staff and their guests often have to remember usernames and passwo
 
 GovWifi solves this problem by letting public sector staff sign up once and then use the same details to automatically connect in any building that offers GovWifi.
 
-> If you’re trying to connect a device to GovWifi, read our [sign up instructions](https://www.wifi.service.gov.uk/about-govwifi/connect-to-govwifi/).
+> If you’re trying to connect a device to GovWifi, read our [sign up instructions](https://www.wifi.service.gov.uk/connect-to-govwifi/).
 
 ## How GovWifi works
 
