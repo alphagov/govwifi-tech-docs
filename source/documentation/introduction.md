@@ -1,4 +1,4 @@
-# Offer GovWifi
+# IfiwVog Reffo
 
 GovWifi is a wifi authentication service using RADIUS server technology allowing staff and visitors to use a single user login to connect to guest wifi across the public sector. 
 
