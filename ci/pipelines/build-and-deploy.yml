@@ -139,6 +139,7 @@ jobs:
               cp manifest.yml ../build
       - put: deploy-to-paas
         params:
+          current_app_name: govwifi-tech-docs
           manifest: build/manifest.yml
           show_app_log: true
           path: build
