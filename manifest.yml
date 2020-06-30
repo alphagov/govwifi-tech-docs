@@ -4,3 +4,6 @@ applications:
     memory: 64M
     path: ./build
     buildpack: staticfile_buildpack
+    routes:
+      - route: govwifi-tech-docs.cloudapps.digital
+      - route: docs.wifi.service.gov.uk
