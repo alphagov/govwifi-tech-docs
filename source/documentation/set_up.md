@@ -2,13 +2,13 @@
 
 Follow these steps to set up and make GovWifi available in your organisation.
 
-## Step 1 - Create a GovWifi admin account
+## Create a GovWifi admin account
 
 Before you can begin technical set up, you must [sign up for a GovWifi admin account](https://admin.wifi.service.gov.uk/users/sign_up).
 
 If your organisation is currently not whitelisted to be registered, please [contact us](https://admin.wifi.service.gov.uk/help/new/technical_support).
 
-## Step 2 - Sign the GovWifi Memorandum of understanding
+## Sign the GovWifi Memorandum of understanding
 
 You must [sign and upload the GovWifi memorandum of understanding](https://admin.wifi.service.gov.uk/mou) (MoU) before your organisation can begin installing GovWifi.
 
@@ -16,7 +16,7 @@ The MoU sets out the agreement between the Government Digital Service and your p
 
 By proceeding to complete GovWifi setup, your organisation also accepts our [privacy notice](https://www.wifi.service.gov.uk/privacy-notice) and [terms and conditions](https://www.wifi.service.gov.uk/terms-and-conditions).
 
-## Step 3 - Create a new wifi installation
+## Create a new wifi installation
 
 Create a [network address translation (NAT) rule](https://wiki.untangle.com/index.php/NAT_Rules) if one does not already exist. This allows your wifi controller or access points to connect to the internet using the IP addresses you set up in the [admin portal](https://admin.wifi.service.gov.uk/ips).
 
@@ -38,7 +38,7 @@ We recommend connecting to all GovWifi RADIUS servers, so you're protected from 
 3. Configure your Network Access Server (access point) to make usernames private.
 4. If allowed by your infrastructure vendor, set the Network Access Identifier (NAI) for your outer tunnel to be anonymous. See [RFC 7542](https://tools.ietf.org/html/rfc7542) for full details of permitted NAI syntax.
 
-## Step 4 - Set up managed end user devices
+## Set up managed end user devices
 
 Users must follow the [GovWifi terms and conditions](https://www.gov.uk/government/publications/terms-and-conditions-for-connecting-to-govwifi/terms-and-conditions-for-connecting-to-govwifi) for managed and unmanaged devices.
 
@@ -90,13 +90,13 @@ For example:
 netsh wlan set profileorder name="GovWifi" interface="Wi-Fi" priority=1
 ```
 
-## Step 5 - Advertise GovWifi in your organisation
+## Advertise GovWifi in your organisation
 
 You should advertise GovWifi in the locations you’ll roll it out.
 
 [Download a poster](https://admin.wifi.service.gov.uk/setup_instructions/poster) (you might need to sign in) with information on how end users can connect to GovWifi in your organisation.
 
-## Step 6 - Provide GovWifi support
+## Provide GovWifi support
 
 It is your IT support team’s responsibility to support your organisation’s users when those users are connecting to GovWifi.
 
