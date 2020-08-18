@@ -58,13 +58,17 @@ The user will only need to enter their username and password once they have sign
 
 Add the following to your users’ login script:
 
-netsh wlan add profile filename=“PATH_TO_PROFILE” user=all
+```sh
+netsh wlan add profile filename="PATH_TO_PROFILE" user=all
+```
 
-Where PATH_TO_PROFILE is your file path.
+Where `PATH_TO_PROFILE` is your file path.
 
 For example:
 
-netsh wlan add profile filename=“govwifi-profile.xml” user=all
+```sh
+netsh wlan add profile filename="govwifi-profile.xml" user=all
+```
 
 Read about how to [create certificate profiles in configuration manager](https://docs.microsoft.com/en-us/previous-versions/system-center/system-center-2012-R2/dn270541(v=technet.10)).
 
@@ -74,13 +78,17 @@ GovWifi must be the highest priority service set identifier (SSID) in your organ
 
 Add the following to your users’ login script:
 
-netsh wlan set profileorder name=“GovWifi” interface=“NAME” priority=1
+```sh
+netsh wlan set profileorder name="GovWifi" interface="NAME" priority=1
+```
 
-Where NAME is your environment’s name.
+Where `NAME` is your environment’s name.
 
 For example:
 
-netsh wlan set profileorder name=“GovWifi” interface=“Wi-Fi” priority=1
+```sh
+netsh wlan set profileorder name="GovWifi" interface="Wi-Fi" priority=1
+```
 
 ## Step 5 - Advertise GovWifi in your organisation
 
