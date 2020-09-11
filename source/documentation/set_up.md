@@ -6,7 +6,7 @@ Follow these steps to set up and make GovWifi available in your organisation.
 
 Before you can begin technical set up, you must [sign up for a GovWifi admin account](https://admin.wifi.service.gov.uk/users/sign_up).
 
-If your organisation is currently not whitelisted to be registered, please [contact us](https://admin.wifi.service.gov.uk/help/new/technical_support).
+If your organisation is currently not allowed to be registered, please [contact us](https://admin.wifi.service.gov.uk/help/new/technical_support).
 
 ## Sign the GovWifi Memorandum of understanding
 
@@ -18,9 +18,13 @@ By proceeding to complete GovWifi setup, your organisation also accepts our [pri
 
 ## Create a new wifi installation
 
+Create a Network Address Translation (NAT) rule, if one does not already exist - [learn more about NAT rules](https://wiki.untangle.com/index.php/NAT_Rules). 
+This allows your wifi controller or access points to connect to the internet using the IP addresses you set up in the 
+[GovWifi admin portal](https://admin.wifi.service.gov.uk/ips).
+
 Create a [network address translation (NAT) rule](https://wiki.untangle.com/index.php/NAT_Rules) if one does not already exist. This allows your wifi controller or access points to connect to the internet using the IP addresses you set up in the [admin portal](https://admin.wifi.service.gov.uk/ips).
 
-#### Set up your public IP addresses
+### Set up your public IP addresses
 
 You should add your IP address or addresses to your admin portal profile.
 
@@ -28,7 +32,7 @@ You can find details of the Remote Authentication Dial-In User Service (RADIUS) 
 
 We recommend connecting to all GovWifi RADIUS servers, so you're protected from a single server being unavailable.
 
-#### Configure your infrastructure
+### Configure your infrastructure
 
 1. Create a firewall rule to allow traffic on User Datagram Protocol (UDP) ports 1812 and 1813 to reach the RADIUS IP addresses assigned to you.
 2. Create a service set identifier (SSID) with:
@@ -36,7 +40,8 @@ We recommend connecting to all GovWifi RADIUS servers, so you're protected from 
     - type: WPA2-Enterprise (AES encryption)
 
 3. Configure your Network Access Server (access point) to make usernames private.
-4. If allowed by your infrastructure vendor, set the Network Access Identifier (NAI) for your outer tunnel to be anonymous. See [RFC 7542](https://tools.ietf.org/html/rfc7542) for full details of permitted NAI syntax.
+4. If allowed by your infrastructure vendor, set the Network Access Identifier (NAI) for your outer tunnel to be 
+anonymous. [See RFC 7542 for full details of permitted NAI syntax](https://tools.ietf.org/html/rfc7542).
 
 ## Set up managed end user devices
 
@@ -44,17 +49,23 @@ Users must follow the [GovWifi terms and conditions](https://www.gov.uk/governme
 
 Before you begin, you should have checked what to do before you offer GovWifi.
 
-#### Remotely deploy GovWifi profiles to managed devices
+### Remotely deploy GovWifi profiles to managed devices
 
-You must deploy profiles to your managed devices for automatic certificate checking. Use mobile device management solutions or operating system mechanisms, such as [Windows’ Group Policy](https://en.wikipedia.org/wiki/Group_Policy) or [Apple Profile Manager](https://support.apple.com/en-gb/profile-manager).
+You must deploy profiles to your managed devices for automatic certificate checking. You could use mobile device 
+management solutions or operating system mechanisms for this. For example:
 
-#### Get the XML profile for Windows devices
+* [deploy profiles on Windows devices using Group Policy](https://en.wikipedia.org/wiki/Group_Policy)
+* [deploy profiles on Apple devices using the Profile Manager](https://support.apple.com/en-gb/profile-manager)
 
-Make this [wireless profile configuration XML file](https://docs.wifi.service.gov.uk/assets/govwifi-profile.xml) available to users, for example hosting the XML file on an internal web server. The devices will be able to verify their certificate against the XML file to confirm those devices are authorised to join the network.
+### Get the XML profile for Windows devices
+
+Make the [GovWifi profile configuration XML file](https://docs.wifi.service.gov.uk/assets/govwifi-profile.xml) available 
+to your users - as an example, you could host this file on an intranet web server. The devices will then be able to 
+verify their certificate against the XML file to confirm whether those devices are authorised to join the network.
 
 The user will only need to enter their username and password once they have signed up to the service.
 
-#### Deploy XML profile to managed devices
+### Deploy XML profile to managed devices
 
 Add the following to your users’ login script:
 
@@ -72,7 +83,7 @@ netsh wlan add profile filename="govwifi-profile.xml" user=all
 
 Read about how to [create certificate profiles in configuration manager](https://docs.microsoft.com/en-us/previous-versions/system-center/system-center-2012-R2/dn270541(v=technet.10)).
 
-#### Prioritise the GovWifi profile
+### Prioritise the GovWifi profile
 
 GovWifi must be the highest priority service set identifier (SSID) in your organisation, except for SSIDs that provide access to privileged networks using device certificates.
 
