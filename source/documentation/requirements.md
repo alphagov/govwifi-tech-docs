@@ -24,9 +24,8 @@ While you are not required to follow these points to set up GovWifi, they are re
 
 - set your wifi access controllers to point to 2 or more RADIUS servers
 - set your network to use client isolation to prevent compromised devices attacking other devices
-- provide a basic content filtering service such as a webpage filter to all GovWifi users - NCSC’s [UK public sector DNS](https://www.ncsc.gov.uk/information/pdns) is an appropriate solution
-- [configure your managed devices](https://www.gov.uk/guidance/solve-problems-with-connecting-to-govwifi#device-problems) to connect to GovWifi
-
+- provide a basic content filtering service such as a webpage filter to all GovWifi users - an appropriate solution is
+to [use NCSC’s Protective DNS for preventing access to malicious domains](https://www.ncsc.gov.uk/information/pdns)
 
 ## Hardware recommendations for GovWifi
 
@@ -35,11 +34,11 @@ GovWifi is set up to work with your existing hardware. However, if you choose to
 On your network infrastructure:
 
 - upgrade bandwidth using general purpose internet services
-- use [transparent caching technologies](https://www.pcmag.com/encyclopedia/term/53119/transparent-cache) to regularly cache your existing state
-- use [high power class 4 switches](https://documentation.meraki.com/MS/Other_Topics/IEEE_802.3af_\(PoE\)_and_IEEE_802.3at_\(PoE_\)_Support_on_Cisco_Meraki_MS_Switches) to power the access points and allow easier upgrade to future wireless technologies
+- use transparent caching technologies to regularly cache your existing state - [learn more about transparent caching](https://www.pcmag.com/encyclopedia/term/53119/transparent-cache)
+- use high power class 4 switches to power the access points and allow easier upgrade to future wireless technologies -
+[learn more about high power class 4 switches](https://documentation.meraki.com/MS/Other_Topics/IEEE_802.3af_\(PoE\)_and_IEEE_802.3at_\(PoE_\)_Support_on_Cisco_Meraki_MS_Switches)
 
-If you need voice support, use a voice program, for example [Voice Enterprise](http://www.wi-fi.org/discover-wi-fi/wi-fi-certified-voice-programs).
-
+If you need voice support, [use a voice program such as Voice Enterprise](http://www.wi-fi.org/discover-wi-fi/wi-fi-certified-voice-programs).
 
 ## Wireless access point configuration
 
@@ -48,18 +47,17 @@ Deploy centrally-managed hardware, ideally with at least 5 GHz frequency band an
 By using a 5GHz band, you: 
 
 - allow for a larger number of available channels 
-- can enable ‘[band steering](https://www.broadbandbuyer.com/features/3254-what-does-wifi-band-steering-mean/)’ to regulate probe responses to clients 
+- can [enable 'band steering' to regulate probe requests to clients](https://www.broadbandbuyer.com/features/3254-what-does-wifi-band-steering-mean/)
 - support smoother roaming for devices on the move using fast roaming
 
 Configure your wireless access points (APs) to:
 
 - use a high basic data rate as your minimum 
 - disable lower data rates to encourage clients to roam to APs with stronger signals and increase capacity for all clients
-- support [ac wave 2](https://standards.ieee.org/findstds/standard/802.11ac-2013.html) and multiple input multiple output (MIMO)
+- [support IEEE 802.11ac wave 2 standard for higher throughput](https://standards.ieee.org/findstds/standard/802.11ac-2013.html) and multiple input multiple output (MIMO)
 - have maximum 4 service set identifiers (SSIDs) per band per site and selectively disable SSIDs where they are not required - each SSID uses up bandwidth with beaconing, probe requests and probe responses
 - manage channel width by designing 802.11n/ac using 40 MHz width channels
 
 You may enable wider channels (channel bonding) for 802.11ac, but you should configure them to fall back to a non-overlapping channel.
 
 Use automatic channel selection features in enterprise wifi management systems rather than manual configuration.
-
