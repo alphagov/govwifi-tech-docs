@@ -15,7 +15,8 @@ header_links:
   Admin: https://admin.wifi.service.gov.uk/users/sign_in
 
 footer_links:
-  Accessibility: https://www.wifi.service.gov.uk/accessibility-statement
+  GovWifi Website Accessibility: https://www.wifi.service.gov.uk/accessibility-statement
+  GovWifi Technical Documentation Accessibility: /accessibility.html
 
 # Enables search functionality. This indexes pages only and is not recommended for single-page sites.
 enable_search: true
