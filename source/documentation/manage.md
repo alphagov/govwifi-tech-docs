@@ -10,7 +10,7 @@ After you’ve successfully deployed GovWifi, consider removing less secure gues
 
 ## View and update your site configuration
 
-You can view and update your GovWifi configuration in your [GovWifi admin account](https://admin.wifi.service.gov.uk/)
+You can [view and update your configuration in your GovWifi admin account](https://admin.wifi.service.gov.uk/)
 
 
 ## Manage acceptable use

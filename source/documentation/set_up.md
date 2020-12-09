@@ -101,7 +101,7 @@ netsh wlan set profileorder name="GovWifi" interface="Wi-Fi" priority=1
 
 To make sure your users know they can use GovWifi, you should advertise the service.
 
-You can use [our poster](https://admin.wifi.service.gov.uk/setup_instructions/poster) (you might need to sign in to your admin account). It includes information on how your users can connect to GovWifi in your buildings.
+You can [use our poster](https://admin.wifi.service.gov.uk/setup_instructions/poster) (you might need to sign in to your admin account). It includes information on how your users can connect to GovWifi in your buildings.
 
 ## Provide GovWifi support
 
