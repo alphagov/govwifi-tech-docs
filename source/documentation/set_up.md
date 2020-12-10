@@ -24,7 +24,7 @@ This will allow your wifi controller or access points to connect to the internet
 
 ### Set up your public IP addresses
 
-Add your IP address or addresses to your [GovWifi admin account](https://admin.wifi.service.gov.uk/ips).
+Add your IP addresses to your [GovWifi admin account](https://admin.wifi.service.gov.uk/ips).
 
 You can find details of the Remote Authentication Dial-In User Service (RADIUS) servers in your GovWifi admin account. You must connect to at least one RADIUS server. You can configure your authenticators to connect to more than one RADIUS server. These extra servers are known as ‘backups’ or ‘failovers’.
 
@@ -50,8 +50,8 @@ Users must follow the [GovWifi terms and conditions](https://www.gov.uk/governme
 You must deploy profiles to your managed devices for automatic certificate checking. You could use mobile device
 management solutions or operating system mechanisms for this. For example, you can deploy profiles on:
 
-* Windows devices using [Group Policy](https://en.wikipedia.org/wiki/Group_Policy)
-* Apple devices using [Profile Manager](https://support.apple.com/en-gb/profile-manager)
+* [Windows devices using Group Policy](https://en.wikipedia.org/wiki/Group_Policy)
+* [Apple devices using Profile Manager](https://support.apple.com/en-gb/profile-manager)
 
 ### Get the XML profile for Windows devices
 
@@ -101,7 +101,7 @@ netsh wlan set profileorder name="GovWifi" interface="Wi-Fi" priority=1
 
 To make sure your users know they can use GovWifi, you should advertise the service.
 
-You can [use our poster](https://admin.wifi.service.gov.uk/setup_instructions/poster) (you might need to sign in to your admin account). It includes information on how your users can connect to GovWifi in your buildings.
+You can [use our poster](https://admin.wifi.service.gov.uk/setup_instructions/poster) (you might need to sign in to your admin account). It includes information on how your users can connect to GovWifi.
 
 ## Provide GovWifi support
 
