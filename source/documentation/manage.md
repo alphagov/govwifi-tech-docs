@@ -10,7 +10,7 @@ After you’ve successfully deployed GovWifi, consider removing less secure gues
 
 ## View and update your site configuration
 
-You can [view and update your configuration in your GovWifi admin account](https://admin.wifi.service.gov.uk/)
+You can [view and update your configuration in GovWifi admin](https://admin.wifi.service.gov.uk/)
 
 
 ## Manage acceptable use
@@ -24,13 +24,10 @@ If you find someone breaching your acceptable use policy, you can remove their a
 
 We will remove users for breaching GovWifi’s [terms of service](https://www.gov.uk/government/publications/terms-and-conditions-for-connecting-to-govwifi/terms-and-conditions-for-connecting-to-govwifi). This includes, but is not limited to, illegal activity and breaching the [Civil Service Code](https://www.gov.uk/government/publications/civil-service-code/the-civil-service-code).
 
-
-### Report abuse
-
 If you believe a user is breaching the GovWifi terms of service, [contact us](https://admin.wifi.service.gov.uk/help).
 
 
-## Log traffic
+## Logs
 
 You’re responsible for traffic monitoring and logging. You must make sure traffic logging and monitoring complies with your organisation’s internal legal and operational guidance.
 
