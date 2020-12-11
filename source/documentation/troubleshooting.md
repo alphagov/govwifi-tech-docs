@@ -1,19 +1,23 @@
 # Support
 
-The Government Digital Service supports GovWifi network administrators on problems with the central authentication service.
+We support GovWifi administrators on problems with the central authentication service.
 
-End-user support for GovWifi is the responsibility of the relevant IT support helpdesks of public sector organisations offering GovWifi. They will be able to check user devices and also ensure the local network is working.
+Your organisation is responsible for helping your users connect to GovWifi. This is because you can check for problems with their devices and your local network.
 
-## If an individual user in your organisation is having trouble connecting to GovWifi
+## If an individual user is having trouble connecting
 
-- Direct them to [our guidance on common issues](https://www.wifi.service.gov.uk/support/)
-- [Search our logs](https://admin.wifi.service.gov.uk/logs/search/new/username) to confirm they are reaching our service 
-- You can [check if there are any problems with the GovWifi service](https://status.wifi.service.gov.uk)
+You should:
 
-## If your entire organisation is having trouble connecting to GovWifi
+- [direct them to our guidance on common issues](https://www.wifi.service.gov.uk/support/)
+- [search the logs](https://admin.wifi.service.gov.uk/logs/search/new/username) to confirm they are reaching our service
+- [check the status page](https://status.wifi.service.gov.uk) to see if there are any problems with the GovWifi service
 
-- Check your [IPs and RADIUS secret keys](https://admin.wifi.service.gov.uk/ips) match your local configuration 
-- [Search our logs](https://admin.wifi.service.gov.uk/logs/search/new/location) to confirm traffic from you is reaching our service 
-- You can [check if there are any problems with the GovWifi service](https://status.wifi.service.gov.uk)
+## If your entire organisation is having trouble connecting
 
-If you find a problem with the central authentication service or can’t resolve an issue locally, please [contact us](https://admin.wifi.service.gov.uk/help).
+You should:
+
+- [check your IP addresses and RADIUS secret keys](https://admin.wifi.service.gov.uk/ips) match your local configuration
+- [search the logs](https://admin.wifi.service.gov.uk/logs/search/new/location) to confirm traffic from your organisation is reaching our service
+- [check our status page](https://status.wifi.service.gov.uk) to see if there are any problems with the GovWifi service
+
+[Contact us](https://admin.wifi.service.gov.uk/help) if you have a problem that you cannot fix locally.
