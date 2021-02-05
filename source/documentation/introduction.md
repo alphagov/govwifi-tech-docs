@@ -1,11 +1,7 @@
 # Offer GovWifi
 
-GovWifi is a wifi authentication service using RADIUS server technology. It allows staff and visitors to use a single username and password to connect to guest wifi across the public sector.
+Public sector staff and their guests often have to remember different usernames and passwords for wifi networks in multiple organisations and buildings.
 
-If you manage IT services in a public sector organisation and would like to make GovWifi available in your buildings, use this technical documentation to find out how to:
-
-- set up GovWifi for your public sector organisation
-- manage GovWifi in your buildings
-- manage your users and acceptable use of GovWifi
+GovWifi solves this problem. Public sector staff sign up once and connect their device using their unique details. They’ll then automatically connect to GovWifi in any building that offers it.
 
 If you’re trying to connect a device to GovWifi, read our [sign up instructions](https://www.wifi.service.gov.uk/about-govwifi/connect-to-govwifi/).
