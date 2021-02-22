@@ -2,12 +2,10 @@
 
 Before you offer GovWifi in your organisation, you need to make sure your existing wifi setup can support it.
 
-In general, make sure you’re always following best practices for wireless networks. It’s a good idea to speak to your vendor.
-
 For GovWifi to work alongside your existing wifi infrastructure, your:
 
 - wifi infrastructure must use WPA2-Enterprise (AES) encryption or newer
-- wifi access controllers need to be able to point to one or more RADIUS servers - we recommend at least 2
+- wireless LAN controllers need to be able to point to one or more RADIUS servers - we recommend at least 2
 - network must be able to use one or more public IP addresses for connecting to the RADIUS servers
 - firewall must allow RADIUS protocol to connect to the GovWifi authentication servers - port 1812/User Datagram Protocol (UDP) for authentication requests
 - network allows authenticated users to connect to virtual private networks (VPNs) as well as standard internet protocols
@@ -24,10 +22,10 @@ As a minimum:
 - use the [NCSC’s Protective DNS](https://www.ncsc.gov.uk/information/pdns) to protect against malicious domains
 - block sites that breach your organisation’s acceptable use policy
 - put monitoring in place to detect rogue access points that may broadcast a fake GovWifi network
-- deploy 802.1X profiles on managed devices to make sure they can only connect to the genuine GovWifi RADIUS servers
 
 To decide what other security measures to put in place, do a risk assessment based on your own setup and needs. Consider things like:
 
+- deploying 802.1X profiles on managed devices to make sure they can only connect to the genuine GovWifi RADIUS servers
 - stopping GovWifi users from accessing internal resources like printers
 - making users connect to a VPN to access more sensitive information
 - your ability to block and identify users who try to visit malicious sites or breach your acceptable use policy
@@ -39,27 +37,20 @@ Make sure you’ll be able to provide enough internet and bandwidth for the numb
 To make sure you can provide enough bandwidth:
 
 - make sure you’re not broadcasting your wifi network at maximum strength, so it’s only available in the areas you need to use it in
-- set a bandwidth threshold per user
 - use your firewall to block things that takes up a lot of bandwidth, like streaming services or downloads over a certain size
 
 ## Wireless access points 
 
-Deploy centrally-managed hardware, ideally with at least 5 GHz frequency band and 802.11ac support.
-
-By using a 5GHz band, you:
-
-- allow for a larger number of available channels
-- can [enable 'band steering' to regulate probe requests to clients](https://www.broadbandbuyer.com/features/3254-what-does-wifi-band-steering-mean/)
-- support smoother roaming for devices on the move using fast roaming
+Deploy centrally-managed hardware with at least 5 GHz frequency band and Wi-Fi 5 (802.11ac) support. If you can, use Wi-Fi 6 (802.11ax).
 
 Configure your wireless access points (APs) to:
 
 - use a high basic data rate as your minimum
 - disable lower data rates to encourage clients to roam to APs with stronger signals and increase capacity for all clients
-- [support IEEE 802.11ac wave 2 standard for higher throughput](https://standards.ieee.org/findstds/standard/802.11ac-2013.html) and multiple input multiple output (MIMO)
+- support IEEE 802.11ac wave 2 standard for higher throughput and multiple input multiple output (MIMO)
 - have maximum 4 service set identifiers (SSIDs) per band per site and selectively disable SSIDs where they are not required - each SSID uses up bandwidth with beaconing, probe requests and probe responses
 - manage channel width by designing 802.11n/ac using 40 MHz width channels
 
-You may enable wider channels (channel bonding) for 802.11ac, but you should configure them to fall back to a non-overlapping channel.
+You may enable wider channels (channel bonding) for 802.11ac, but you should configure them to fall back to a non-overlapping channel. Use automatic channel bonding if you can.
 
 Use automatic channel selection features in enterprise wifi management systems rather than manual configuration.
