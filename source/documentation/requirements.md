@@ -8,7 +8,7 @@ For GovWifi to work alongside your existing wifi infrastructure, your:
 - wireless LAN controllers need to be able to point to one or more RADIUS servers - we recommend at least 2
 - network must be able to use one or more public IP addresses for connecting to the RADIUS servers
 - firewall must allow RADIUS protocol to connect to the GovWifi authentication servers - port 1812/User Datagram Protocol (UDP) for authentication requests
-- network allows authenticated users to connect to virtual private networks (VPNs) as well as standard internet protocols
+- network must allow authenticated users to connect to virtual private networks (VPNs) as well as standard internet protocols
 
 ## Security
 
