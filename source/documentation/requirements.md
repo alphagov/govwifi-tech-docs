@@ -32,7 +32,7 @@ To decide what other security measures to put in place, do a risk assessment bas
 
 ## Bandwidth
 
-Make sure you’ll be able to provide enough internet and bandwidth for the number of people you expect to use the network at once. You may need to plan for unpredictable use.
+Make sure you’ll be able to provide enough bandwidth for the number of people you expect to use the network at once. You may need to plan for unpredictable use.
 
 To make sure you can provide enough bandwidth:
 
