@@ -84,6 +84,12 @@ the HTML and asset files ready to be published.
 [rvm]: https://www.ruby-lang.org/en/documentation/installation/#managers
 [bundler]: http://bundler.io/
 
+## How to contribute
+1. Fork the project
+2. Create a feature or fix branch
+3. Make your changes (with tests if applicable)
+4. Raise a pull request
+
 ## Licence
 
 The documentation is [© Crown copyright][copyright] and available under the terms
