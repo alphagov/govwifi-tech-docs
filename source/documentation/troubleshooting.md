@@ -8,7 +8,7 @@ Your organisation is responsible for helping your users connect to GovWifi. This
 
 If an individual user is having trouble connecting to GovWifi:
 
-- [direct them to our guidance on common issues](https://www.wifi.service.gov.uk/support/)
+- [direct them to our guidance on common issues](https://www.wifi.service.gov.uk/connect-to-govwifi/get-help-connecting/)
 - [search the logs](https://admin.wifi.service.gov.uk/logs/search/new/username) to confirm they are reaching our service
 - [check the status page](https://status.wifi.service.gov.uk) to see if there are any problems with the GovWifi service
 
