@@ -26,7 +26,7 @@ This will allow your wifi controller or access points to connect to the internet
 
 Add your IP addresses to your [GovWifi admin account](https://admin.wifi.service.gov.uk/ips).
 
-You can find details of the Remote Authentication Dial-In User Service (RADIUS) servers in your GovWifi admin account. You must connect to at least one RADIUS server. You can configure your authenticators to connect to more than one RADIUS server. These extra servers are known as ‘backups’ or ‘failovers’.
+You can find details of the Remote Authentication Dial-In User Service (RADIUS) servers in your [GovWifi admin account under "Settings"](https://admin.wifi.service.gov.uk/setup_instructions/initial). You must connect to at least one RADIUS server in each region (one from the London list and one from the Dublin one). You can configure your authenticators to connect to more than two RADIUS servers. These extra servers are known as ‘backups’ or ‘failovers’.
 
 We recommend connecting to all GovWifi RADIUS servers, so you're protected from a single server being unavailable.
 
