@@ -107,4 +107,4 @@ You can [use our poster](/assets/GovWifi-poster.png). It includes information on
 
 It's your IT support team's responsibility to support your users when they're connecting to GovWifi.
 
-You can point your users to our [support guides](https://www.wifi.service.gov.uk/support) which include instructions for connecting different types of devices.
+You can point your users to our [support guides](https://www.wifi.service.gov.uk/connect-to-govwifi/get-help-connecting/) which explain how to fix common problems.
