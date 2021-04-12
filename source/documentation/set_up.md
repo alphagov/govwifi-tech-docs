@@ -37,6 +37,8 @@ We recommend connecting to all GovWifi RADIUS servers, so you're protected from 
     - name: GovWifi
     - type: WPA2-Enterprise (AES encryption)
 
+    Make sure you spell GovWifi exactly as shown. Do not use a variation like 'Govwifi' or 'GovWiFi'. If different GovWifi networks format the SSID differently, users will have to authenticate to each one rather than connecting automatically. Their devices will not recognise them as the same network.
+
 3. Configure your Network Access Server (access point) to make usernames private.
 4. If allowed by your infrastructure vendor, set the Network Access Identifier (NAI) for your outer tunnel to be
 anonymous. See [RFC 7542](https://tools.ietf.org/html/rfc7542) for full details of permitted NAI syntax.
@@ -96,6 +98,12 @@ For example:
 ```sh
 netsh wlan set profileorder name="GovWifi" interface="Wi-Fi" priority=1
 ```
+
+## Sign up for incident alerts 
+
+Subsribe to updates on the [GovWifi status page](https://status.wifi.service.gov.uk/) to be notified when there's an incident. 
+
+It's best to sign up using the shared, monitored email address you entered on GovWifi admin. 
 
 ## Advertise GovWifi in your organisation
 
