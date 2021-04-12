@@ -97,6 +97,12 @@ For example:
 netsh wlan set profileorder name="GovWifi" interface="Wi-Fi" priority=1
 ```
 
+## Sign up for incident alerts 
+
+Subsribe to updates on the [GovWifi status page](https://status.wifi.service.gov.uk/) to be notified when there's an incident. 
+
+It's best to sign up using the shared, monitored email address you entered on GovWifi admin. 
+
 ## Advertise GovWifi in your organisation
 
 To make sure your users know they can use GovWifi, you should advertise the service.
