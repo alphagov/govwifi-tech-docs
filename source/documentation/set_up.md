@@ -36,8 +36,8 @@ We recommend connecting to all GovWifi RADIUS servers, so you're protected from 
 2. Create a service set identifier (SSID) with:
     - name: GovWifi
     - type: WPA2-Enterprise (AES encryption)
-    
-Make sure you spell ‘GovWifi’ exactly as shown, and do not use a variation like ‘Govwifi’ or ‘GovWiFi’. If different GovWifi networks format the SSID differently, users will have to re-authenticate to each network rather than connecting automatically. 
+
+    Make sure you spell GovWifi exactly as shown. Do not use a variation like 'GovWifi' or 'GovWiFi'. If different GovWifi networks format the SSID differently, users will have to authenticate to each network rather than connecting automatically. 
 
 3. Configure your Network Access Server (access point) to make usernames private.
 4. If allowed by your infrastructure vendor, set the Network Access Identifier (NAI) for your outer tunnel to be
