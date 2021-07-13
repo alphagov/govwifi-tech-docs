@@ -2,7 +2,7 @@
 
 Every year, we rotate the GovWifi server certificate. Some years, we’ll also need to replace the intermediate or root certificates. This is an industry standard procedure that keeps the authentication process secure.
 
-We’ll give you at least a month’s notice about certificate rotations. The next one is scheduled for 5 July 2021.
+We’ll give you at least a month’s notice about certificate rotations. The next one is scheduled for July 2022.
 
 The GovWifi team handles the certificate rotation on the RADIUS servers, but your organisation may need to do a couple of things to make sure your users can connect to GovWifi after the rotation.
 
@@ -10,23 +10,25 @@ You do not need to do anything to your access points, wifi controllers or any ot
 
 ## Update the profile on managed devices
 
-For the 2021 rotation, this section applies to you if your organisation does both of the following:
+This section applies to you if your organisation uses the GovWifi 802.1x profile. 
 
-- uses the GovWifi 802.1x profile
-- tells user devices to check the server certificate (currently called 'wifi.service.gov.uk') or intermediate certificate (currently called 'GeoTrust RSA CA 2018')
+If we're rotating the certificates that your profile tells users' devices to check, you'll need to update the profile with the new certificate details. 
 
-You need to update the profile with the new certificate details when the rotation happens. On the rotation day, push the updated profile out to your managed devices. How you manage this will depend on how you deploy your GovWifi 802.1x profile to your managed devices.
+On the rotation day, push the updated profile out to your managed devices. How you manage this will depend on how you deploy your GovWifi 802.1x profile to your managed devices.
 
-Download the new certificates here:
+We'll add the new certificates to this guidance before the next rotation. 
+
+You can download the current certificates here:
 
 - [server certificate](https://docs.wifi.service.gov.uk/assets/wifi.service.gov.uk_2021.crt)
 - [intermediate certificate](https://docs.wifi.service.gov.uk/assets/GeoTrustRSACA2021.crt)
-
-The [root certificate](https://docs.wifi.service.gov.uk/assets/DigiCertGlobalRootCA.crt) will not change in this rotation. This means you do not need to update your 802.1x profile if it only checks the root certificate.
+- [root certificate](https://docs.wifi.service.gov.uk/assets/DigiCertGlobalRootCA.crt)
 
 ## Help users accept the new certificate
 
-We’ve published [guidance for users](https://www.wifi.service.gov.uk/connect-to-govwifi/update-govwifi-server-certificate/) on what to do and we’ll tell them about the update in advance. However, they may still need help from your IT support team.
+Even though the rotation happens annually, some users will not use GovWifi until months after the rotation date. This means they may not need to accept the new certificate until much later. 
+
+We’ve got [guidance for users](https://www.wifi.service.gov.uk/connect-to-govwifi/update-govwifi-server-certificate/) on what to do. However, they may still need help from your IT support team so make it clear to your users where they can get help.
 
 ### What they need to do may vary
 
@@ -52,13 +54,13 @@ Users on managed devices may not have permission to accept the new certificate. 
 
 Depending how their organisation deploys the profile, a user may need to connect to the internet a different way to pick up the updated profile.
 
-If the user has accepted the certificate but still cannot connect, follow your usual troubleshooting process. You can also advise them to:
+You can also advise them to:
 
 - forget the network and try to connect again
 - follow our [guidance on common problems](https://www.wifi.service.gov.uk/connect-to-govwifi/get-help-connecting/)
 
 ## Get support
 
-If anything goes wrong on the rotation day, we’ll publish a message on the GovWifi status page. [Sign up for incident alerts on status page](https://status.wifi.service.gov.uk/).
+If anything goes wrong with the rotation, we’ll publish a message on the GovWifi status page. [Sign up for incident alerts on status page](https://status.wifi.service.gov.uk/).
 
 Email us at <govwifi-support@digital.cabinet-office.gov.uk> if you have any questions.
