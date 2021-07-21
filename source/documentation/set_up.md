@@ -8,6 +8,8 @@ Before you can begin technical set up, you must [create your GovWifi admin accou
 
 If your organisation is currently not allowed to be registered, [contact us](https://admin.wifi.service.gov.uk/help/new/technical_support).
 
+Once you’ve created your account, you should invite at least one of your colleagues to create an account too. This is so they can reset your two-factor authentication if needed. You can invite them from the ‘Team members’ section of GovWifi admin. 
+
 ## Sign the memorandum of understanding
 
 You must [sign the memorandum of understanding](https://admin.wifi.service.gov.uk/mou) (MOU) before your organisation can begin installing GovWifi.
