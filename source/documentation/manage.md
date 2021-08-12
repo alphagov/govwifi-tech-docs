@@ -2,11 +2,6 @@
 
 This guidance explains how to manage GovWifi for your organisation once you've installed it.
 
-
-## Withdraw legacy services
-
-After you’ve successfully deployed GovWifi, you can remove less secure guest wifi services.
-
 ## Create a plan to deal with a GovWifi outage 
 
 If GovWifi is critical for your organisation, create a business continuity plan so you can still provide internet access in your buildings if there’s a problem with GovWifi. 
@@ -20,6 +15,7 @@ Consult with your risk assessment and technology teams on your business continui
 We recommend you have a backup guest SSID that people in your buildings can use if there’s a long GovWifi outage. 
 
 When setting up your backup guest SSID: 
+
 - make sure it meets our [security standards](https://docs.wifi.service.gov.uk/requirements/#security), and points users to any terms of use your organisation has 
 - do not use ‘GovWifi’ as the SSID, or you might have potential conflicts when GovWifi is working again 
 - make sure you can easily disable it when GovWifi is working again 
