@@ -8,7 +8,8 @@ For GovWifi to work alongside your existing wifi infrastructure, your:
 - wireless LAN controllers need to be able to point to one or more RADIUS servers - we recommend at least 2
 - network must be able to use one or more public IP addresses for connecting to the RADIUS servers
 - firewall must allow RADIUS protocol to connect to the GovWifi authentication servers - port 1812/User Datagram Protocol (UDP) for authentication requests
-- network must allow authenticated users to connect to virtual private networks (VPNs) as well as standard internet protocols
+
+It is important to allow authenticated users to connect to virtual private networks (VPNs) as well as standard internet protocols.
 
 ## Security
 
@@ -41,7 +42,7 @@ To make sure you can provide enough bandwidth:
 
 ## Wireless access points 
 
-Deploy centrally-managed hardware with at least 5 GHz frequency band and Wi-Fi 5 (802.11ac) support. If you can, use Wi-Fi 6 (802.11ax).
+Deploy centrally-managed hardware using the 5 GHz frequency band and Wi-Fi 5 (802.11ac). If you can, use Wi-Fi 6 (802.11ax).
 
 Configure your wireless access points (APs) to:
 
