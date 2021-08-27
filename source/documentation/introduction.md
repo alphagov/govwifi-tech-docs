@@ -4,7 +4,11 @@ Public sector staff and their guests often have to remember different usernames 
 
 GovWifi solves this problem. Public sector staff sign up once and connect their device using their unique details. They’ll then automatically connect to GovWifi in any building that offers it.
 
-If you’re trying to connect a device to GovWifi, read our [sign up instructions](https://www.wifi.service.gov.uk/connect-to-govwifi/).
+If you manage IT services in a public sector organisation and would like to make GovWifi available in your buildings, this technical documentation explains how to:
+
+- set up GovWifi
+- manage the GovWifi connection
+- manage acceptable use of GovWifi
 
 ## How GovWifi works
 
@@ -35,11 +39,3 @@ Anyone can connect a device to GovWifi once they have signed up for a username a
 - public sector workers
 - consultants and contractors
 - members of the public who need to work from buildings - like lawyers and jurors in courts, or private sector workers collaborating with government
-
-If you manage IT services in a public sector organisation and would like to make GovWifi available in your buildings, use this technical documentation to find out how to:
-
-- set up GovWifi
-- manage the GovWifi connection
-- manage acceptable use of GovWifi
-
-The Cabinet Office operates the GovWifi service and supports public sector network administrators to set up and manage GovWifi in their organisations.
