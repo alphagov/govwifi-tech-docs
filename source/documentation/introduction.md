@@ -1,4 +1,4 @@
-# Offer GovWifi
+# About GovWifi
 
 Public sector staff and their guests often have to remember different usernames and passwords for wifi networks in multiple organisations and buildings.
 
