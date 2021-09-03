@@ -59,7 +59,7 @@ You can expect the following communications from the GovWifi team:
 
 - updates on significant changes to the service - we’ll usually ask for your feedback so please help out where you can 
 - updates on significant changes to our privacy policy
-- requests for you to take part in user research. This is so we can improve the service so it meets your needs. If you do not want to be contacted to help with research, please let us know by emailing govwifi-support@digital.cabinet-office.gov.uk 
+- requests for you to take part in user research. This is so we can improve the service so it meets your needs.
 
 All communications will go to the ‘service email’ provided when setting up your GovWifi admin account. Where necessary, some will also go to individual admin users. You need to sign up separately for incident alerts on our [status page](https://status.wifi.service.gov.uk/).
 

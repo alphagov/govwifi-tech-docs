@@ -1,6 +1,6 @@
 # Get support
 
-For support, contact us via our [support form](https://admin.wifi.service.gov.uk/help) or by emailing govwifi-support@digital.cabinet-office.gov.uk 
+For support, contact us via our [support form](https://admin.wifi.service.gov.uk/help). 
 
 We’re here Monday to Friday, 8am to 6pm. We’ll reply within 1 working day. 
 

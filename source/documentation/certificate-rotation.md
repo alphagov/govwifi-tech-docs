@@ -63,4 +63,4 @@ You can also advise them to:
 
 If anything goes wrong with the rotation, we’ll publish a message on the GovWifi status page. [Sign up for incident alerts on status page](https://status.wifi.service.gov.uk/).
 
-Email us at <govwifi-support@digital.cabinet-office.gov.uk> if you have any questions.
+For support, contact us via our [support form](https://admin.wifi.service.gov.uk/help).
