@@ -53,7 +53,7 @@ You’re responsible for traffic monitoring and logging.
 
 You can view [logs for specific users](https://admin.wifi.service.gov.uk/logs/search/new) (sign in required). This can help you troubleshoot problems and help you investigate malicious use.  
 
-## Engage with updates from the GovWifi team
+## Look out for updates from the GovWifi team
 
 You can expect the following communications from the GovWifi team:  
 

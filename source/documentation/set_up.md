@@ -16,8 +16,6 @@ You must [sign the memorandum of understanding](https://admin.wifi.service.gov.u
 
 The MOU sets out the agreement between the Government Digital Service and your public sector organisation in relation to the use of GovWifi.
 
-By completing GovWifi setup, your organisation also accepts our [privacy notice](https://www.wifi.service.gov.uk/privacy-notice) and [terms and conditions](https://www.wifi.service.gov.uk/terms-and-conditions).
-
 ## Create a new wifi installation
 
 Create a [network address translation (NAT) rule](https://wiki.untangle.com/index.php/NAT_Rules) if one does not already exist.
