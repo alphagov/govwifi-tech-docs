@@ -18,11 +18,6 @@ resource_types:
     password: ((docker_hub_authtoken))
 
 resources:
-  - name: tech-ops
-    type: git
-    source:
-      uri: https://github.com/alphagov/tech-ops.git
-
   - name: govwifi-tech-docs
     type: git
     source:
@@ -49,19 +44,10 @@ jobs:
   - name: self-update
     serial: true
     plan:
-    - get: tech-ops
-      params:
-        submodules: none
     - get: govwifi-tech-docs
       trigger: true
-    - task: set-pipelines
-      file: tech-ops/ci/tasks/self-updating-pipeline.yaml
-      input_mapping: {repository: govwifi-tech-docs}
-      params:
-        CONCOURSE_TEAM: govwifi
-        CONCOURSE_PASSWORD: ((readonly_local_user_password))
-        PIPELINE_PATH: ci/pipelines/build-and-deploy.yml
-        PIPELINE_NAME: tech-docs-deploy
+    - set_pipeline: tech-docs-deploy
+      file: govwifi-tech-docs/ci/pipelines/build-and-deploy.yml
 
   - name: build
     interruptible: true
