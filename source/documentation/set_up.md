@@ -109,7 +109,7 @@ It's best to sign up using the shared, monitored email address you entered on Go
 
 If GovWifi is critical for your organisation, create a business continuity plan so you can still provide internet access in your buildings if there’s a problem with GovWifi. 
 
-We should be able to resolve most incidents within a few hours. However, in the unlikely event that there’s a catastrophic failure of our infrastructure, it could take up to 2 weeks to restore the service.
+We should be able to resolve most incidents within a few hours. However, in the unlikely event that there’s a catastrophic failure of our infrastructure, it could take up to 5 days to restore the service.
 
 Consult with your risk assessment and technology teams on your business continuity plan. 
 
