@@ -21,7 +21,7 @@ Download the new certificates for 2022 here:
 
 - [server certificate](https://docs.wifi.service.gov.uk/assets/2022/wifi.service.gov.uk.crt)
 
-The [root certificate](https://docs.wifi.service.gov.uk/assets/2022/DigiCertGlobalRootCA.crt) and [intermediate certificate](https://docs.wifi.service.gov.uk/assets/2022/GeoTrustRSACA2021.crt) will not change in 2022. This means you do not need to update your 802.1x profile if it only checks the root certificate.
+The [root certificate](https://docs.wifi.service.gov.uk/assets/2022/DigiCertGlobalRootCA.crt) and [intermediate certificate](https://docs.wifi.service.gov.uk/assets/2022/GeoTrustRSACA.crt) will not change in 2022. This means you do not need to update your 802.1x profile if it only checks the root certificate.
 
 ## Help users accept the new certificate
 
