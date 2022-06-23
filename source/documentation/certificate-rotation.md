@@ -10,14 +10,14 @@ You do not need to do anything to your access points, wifi controllers or any ot
 
 ## Update the profile on managed devices
 
-For the 2022 rotation, this section applies to you if your organisation does both of the following:
+This section applies to you if your organisation does both of the following:
 
-deploys the GovWifi 802.1x profile
-tells user devices to check the ‘server’ certificate (currently wifi.service.gov.uk) or intermediate certificate (currently GeoTrust TLS DV RSA Mixed SHA256 2020 CA-1)
+* deploys the GovWifi 802.1x profile
+* tells user devices to check the ‘server’ certificate (currently wifi.service.gov.uk) or intermediate certificate (currently GeoTrust TLS DV RSA Mixed SHA256 2020 CA-1)
 
-You need to update the profile with the new certificate details when the rotation happens. On the rotation day, push the updated profile out to your managed devices. How you manage this will depend on how you deploy your GovWifi 802.1x profile to your managed devices.
+If you need to update the profile with the new certificate details you must push the updated profile out to your managed devices. How you manage this will depend on how you deploy your GovWifi 802.1x profile to your managed devices.
 
-Download the new certificates for 2022 here:
+Download the 2022 certificate:
 
 - [server certificate](https://docs.wifi.service.gov.uk/assets/2022/wifi.service.gov.uk.crt)
 
@@ -62,6 +62,7 @@ If the user has accepted the certificate but still cannot connect, follow your u
 
 ## Get support
 
-Please sign up to [GovWifi Status Page](https://status.wifi.service.gov.uk/) to get our incident alerts. You can check this page for any outstanding issues that may impact your planned activities.
+Sign up to [GovWifi Status Page](https://status.wifi.service.gov.uk/) to get our incident alerts. You can check this page for any outstanding issues that may impact your planned activities.
 
-[Email us](mailto:govwifi-support@digital.cabinet-office.gov.uk) if you have any questions. Or fill in our [support form](https://admin.wifi.service.gov.uk/help).
+* if you have any questions fill in our [support form](https://admin.wifi.service.gov.uk/help)
+* or you can [email us](mailto:govwifi-support@digital.cabinet-office.gov.uk)
