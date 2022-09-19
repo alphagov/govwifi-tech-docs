@@ -72,6 +72,12 @@ You should now be able to view a live preview at http://localhost:4567.
 If you want to publish the website without using a build script you may need to
 build the static HTML files.
 
+Install the required node modules:
+
+```
+npm install
+```
+
 Type the following to build the HTML:
 
 ```
