@@ -1,14 +1,17 @@
-# Set up GovWifi
+# Set up GovWifi for your organisation
 
-Follow these steps to set up and make GovWifi available in your organisation.
+> Follow these steps only if you will be the administrator for your organisation.
 
-## Create a GovWifi admin account
+> To connect to GovWifi for individual use, follow the instructions to [create a GovWifi account and connect to GovWifi](https://www.wifi.service.gov.uk/connect-to-govwifi/).
 
-Before you can begin technical set up, you must [create your GovWifi admin account](https://admin.wifi.service.gov.uk/users/sign_up).
+1. Check if [GovWifi is available to your organisation](https://www.wifi.service.gov.uk/connect-to-govwifi/organisations-using-govwifi/). If your organisation is not listed please [contact us](https://admin.wifi.service.gov.uk/help/new/technical_support).
+2. [Sign up for a GovWifi administrator account](https://admin.wifi.service.gov.uk/users/sign_up).
 
-If your organisation is currently not allowed to be registered, [contact us](https://admin.wifi.service.gov.uk/help/new/technical_support).
+After creating your account you should invite at least one colleague to create an account. This is so they can reset your two-factor authentication, if needed. Invite them from the ‘team members’ section of GovWifi admin.
 
-Once you’ve created your account, you should invite at least one of your colleagues to create an account too. This is so they can reset your two-factor authentication if needed. You can invite them from the ‘Team members’ section of GovWifi admin. 
+## Connect to GovWifi for individual use
+
+Follow the instructions to [create a GovWifi account and connect to GovWifi](https://www.wifi.service.gov.uk/connect-to-govwifi/).
 
 ## Sign the memorandum of understanding
 
