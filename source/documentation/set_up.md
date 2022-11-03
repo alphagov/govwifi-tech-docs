@@ -9,10 +9,6 @@
 
 After creating your account you should invite at least one colleague to create an account. This is so they can reset your two-factor authentication, if needed. Invite them from the ‘team members’ section of GovWifi admin.
 
-## Connect to GovWifi for individual use
-
-Follow the instructions to [create a GovWifi account and connect to GovWifi](https://www.wifi.service.gov.uk/connect-to-govwifi/).
-
 ## Sign the memorandum of understanding
 
 You must [sign the memorandum of understanding](https://admin.wifi.service.gov.uk/mou) (MOU) before your organisation can begin installing GovWifi.
