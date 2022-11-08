@@ -1,7 +1,7 @@
 # Technical Documentation
 
 ## Getting started
-
+# Test
 To preview or build the website, we need to use the terminal.
 
 Install Ruby with Rubygems, perferably with a [Ruby version manager][rvm],
