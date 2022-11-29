@@ -23,47 +23,26 @@ You can check that users have followed the [guidance on common issues](https://w
 
 ### Sponsor the user for new sign-up details
 
-You can request new sign-up details for a user. This can help with problems like:
-
-- username or password not accepted
-- account has lapsed after inactivity
-- user error when entering username or password
-
-### Steps
+If the user signed up by text and cannot access their emails, you can sponsor their mobile number:
 
 1. Email <sponsor@wifi.service.gov.uk> telling us either the user’s email address (if they signed up by text originally), or their phone number (if they signed up by email originally).
 2. The new sign-up details will be sent to the user to try.
-
-If the user signed up by text and cannot access their emails, you can sponsor their mobile number. If their sign-up details are still valid, they will receive a text to confirm them.
 
 If the user is able to connect with the new sign-up details you can remind the user that those details will work on all their devices.
 
 ### Forget and reconnect the GovWifi service
 
-If new sign-up details do not fix the problem you can ask the user to forget and reconnect. This can help with problems like:
-
-- difficulties in connecting
-- user error when entering username or password
-
-### Steps
+If new sign-up details do not fix the problem you can ask the user to forget and reconnect:
 
 1. Tell the user to forget the GovWifi network and then reconnect to it. 
 2. The user must then enter their password and may have to enter other details depending on their device.
 
 ### Try on a different device
 
-If the user is still having problems you can ask them to try on another device. This can help with problems like:
+If the user is still having problems:
 
-- restrictions or settings on a specific device
-- issues with managed devices
+1. Ask the user to try their new sign-up details on a different device.
 
 If the user can connect with their personal device and not with their work device, the cause is usually a managed device issue. You should check with the team that issued the device.
-
-### Step
-
-Ask the user to try their new sign-up details on a different device.
-
-
-
 
 
