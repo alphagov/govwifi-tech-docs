@@ -1,25 +1,69 @@
-# Get support
+# Support for GovWifi
 
-For support, contact us via our [support form](https://admin.wifi.service.gov.uk/help). 
+Contact us through our [support form](https://admin.wifi.service.gov.uk/help). 
 
-We’re here Monday to Friday, 8am to 6pm. We’ll reply within 1 working day. 
+We’re here Monday to Friday, 8am to 6pm. We’ll reply within one working day. 
 
-If you've already set up GovWifi, we recommend you follow these steps to try and resolve issues locally first. 
+If you've already set up GovWifi, you can follow these steps to try and resolve issues. 
 
 ## If your entire organisation is having problems
 
-If your entire organisation is having trouble connecting to GovWifi:
+- [check the GovWifi status page](https://status.wifi.service.gov.uk) to see if there are any problems with the service
+
+GovWifi administrators:
 
 - [check your IP addresses and RADIUS secret keys](https://admin.wifi.service.gov.uk/ips) match your local configuration
-- [search the logs](https://admin.wifi.service.gov.uk/logs/search/new/location) to confirm traffic from your organisation is reaching our service
-- [check our status page](https://status.wifi.service.gov.uk) to see if there are any problems with the GovWifi service
+- [search the logs](https://admin.wifi.service.gov.uk/logs/search/new/location) to confirm traffic from your organisation is reaching the service
 
-## If an individual user is having problems
+## Troubleshooting to support individual users
 
-If an individual user is having trouble connecting to GovWifi:
+Issues like slow speeds, dropped connections, or difficulty accessing certain sites, are related to the local network. GovWifi is an authentication service and GovWifi support cannot help with these.
 
-- [direct them to our guidance on common issues](https://www.wifi.service.gov.uk/connect-to-govwifi/get-help-connecting/)
-- [search the logs](https://admin.wifi.service.gov.uk/logs/search/new/username) to confirm they are reaching our service
-- [check the status page](https://status.wifi.service.gov.uk) to see if there are any problems with the GovWifi service
+You can check that users have followed the [guidance on common issues](https://www.wifi.service.gov.uk/connect-to-govwifi/get-help-connecting/). You can also use the guidance on how to [create an account and connect a device to GovWifi](https://www.wifi.service.gov.uk/connect-to-govwifi/).
 
-If they’re using a device issued by another organisation, tell them to contact the organisation for help. There may be an issue with their permissions. 
+### Sponsor the user for new sign-up details
+
+You can request new sign-up details for a user. This can help with problems like:
+
+- username or password not accepted
+- account has lapsed after inactivity
+- user error when entering username or password
+
+### Steps
+
+1. Email <sponsor@wifi.service.gov.uk> telling us either the user’s email address (if they signed up by text originally), or their phone number (if they signed up by email originally).
+2. The new sign-up details will be sent to the user to try.
+
+If the user signed up by text and cannot access their emails, you can sponsor their mobile number. If their sign-up details are still valid, they will receive a text to confirm them.
+
+If the user is able to connect with the new sign-up details you can remind the user that those details will work on all their devices.
+
+### Forget and reconnect the GovWifi service
+
+If new sign-up details do not fix the problem you can ask the user to forget and reconnect. This can help with problems like:
+
+- difficulties in connecting
+- user error when entering username or password
+
+### Steps
+
+1. Tell the user to forget the GovWifi network and then reconnect to it. 
+2. The user must then enter their password and may have to enter other details depending on their device.
+
+### Try on a different device
+
+If the user is still having problems you can ask them to try on another device. This can help with problems like:
+
+- restrictions or settings on a specific device
+- issues with managed devices
+
+If the user can connect with their personal device and not with their work device, the cause is usually a managed device issue. You should check with the team that issued the device.
+
+### Step
+
+Ask the user to try their new sign-up details on a different device.
+
+
+
+
+
