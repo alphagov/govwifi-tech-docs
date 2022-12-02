@@ -13,5 +13,6 @@ EXPOSE 4567
 # LiveReload
 EXPOSE 35729
 
-RUN npm install --unsafe-perm
+# RUN npm install --unsafe-perm
+RUN npm install
 RUN bundle exec middleman build
