@@ -1,31 +1,33 @@
+Before offering GovWifi in your organisation check that [your existing wifi setup can support it](https://docs.wifi.service.gov.uk/requirements/).
+
 # Set up GovWifi for your organisation
 
 > Follow these steps only if you will be the administrator for your organisation.
 
 > To connect to GovWifi for individual use, follow the instructions to [create a GovWifi account and connect to GovWifi](https://www.wifi.service.gov.uk/connect-to-govwifi/).
 
-1. Check if [GovWifi is available to your organisation](https://www.wifi.service.gov.uk/connect-to-govwifi/organisations-using-govwifi/). If your organisation is not listed please [contact us](https://admin.wifi.service.gov.uk/help/new/technical_support).
+1. Check if [GovWifi is available to your organisation](https://www.wifi.service.gov.uk/connect-to-govwifi/organisations-using-govwifi/). If your organisation is not listed [contact us](https://admin.wifi.service.gov.uk/help/new/technical_support).
 2. [Sign up for a GovWifi administrator account](https://admin.wifi.service.gov.uk/users/sign_up).
 
-After creating your account you should invite at least one colleague to create an account. This is so they can reset your two-factor authentication, if needed. Invite them from the ‘team members’ section of GovWifi admin.
+After creating your account you should invite at least one colleague to create an account. This is so that a colleague can reset your two-factor authentication, if needed. Invite them from the **team members** section of your GovWifi admin account.
 
 ## Sign the memorandum of understanding
 
 You must [sign the memorandum of understanding](https://admin.wifi.service.gov.uk/mou) (MOU) before your organisation can begin installing GovWifi.
 
-The MOU sets out the agreement between the Government Digital Service and your public sector organisation in relation to the use of GovWifi.
+The MOU sets out the agreement between the Government Digital Service (GDS) and your public sector organisation in relation to GovWifi use.
 
 ## Create a new wifi installation
 
 Create a [network address translation (NAT) rule](https://wiki.untangle.com/index.php/NAT_Rules) if one does not already exist.
 
-This will allow your wifi controller or access points to connect to the internet using the IP addresses you'll add to your GovWifi admin account.
+This allows your wifi controller or access points to connect to the internet using the IP addresses you'll add to your GovWifi admin account.
 
 ### Set up your public IP addresses
 
 Add your IP addresses to your [GovWifi admin account](https://admin.wifi.service.gov.uk/ips).
 
-You can find details of the Remote Authentication Dial-In User Service (RADIUS) servers in your [GovWifi admin account under "Settings"](https://admin.wifi.service.gov.uk/setup_instructions/initial). You must connect to at least one RADIUS server in each region (one from the London list and one from the Dublin one). You can configure your authenticators to connect to more than two RADIUS servers. These extra servers are known as ‘backups’ or ‘failovers’.
+Details of the RADIUS (Remote Authentication Dial-In User Service) servers are in your [GovWifi admin account](https://admin.wifi.service.gov.uk/setup_instructions/initial) under **settings**. You must connect to at least one RADIUS server in each region (one from the London list and one from the Dublin one). You can configure your authenticators to connect to more than two RADIUS servers. These extra servers are known as ‘backups’ or ‘failovers’.
 
 We recommend connecting to all GovWifi RADIUS servers, so you're protected from a single server being unavailable.
 
@@ -36,7 +38,7 @@ We recommend connecting to all GovWifi RADIUS servers, so you're protected from 
     - name: GovWifi
     - type: WPA2-Enterprise (AES encryption)
 
-    Make sure you spell GovWifi exactly as shown. Do not use a variation like 'Govwifi' or 'GovWiFi'. If different GovWifi networks format the SSID differently, users will have to authenticate to each one rather than connecting automatically. Their devices will not recognise them as the same network.
+Make sure you spell GovWifi exactly as shown. Do not use a variation like 'Govwifi' or 'GovWiFi'. If different GovWifi networks format the SSID differently, users will have to authenticate to each one rather than connecting automatically. Their devices will not recognise them as the same network.
 
 3. Configure your Network Access Server (access point) to make usernames private.
 4. If allowed by your infrastructure vendor, set the Network Access Identifier (NAI) for your outer tunnel to be
@@ -57,10 +59,10 @@ management solutions or operating system mechanisms for this. For example, you c
 ### Get the XML profile for Windows devices
 
 Make the [GovWifi profile configuration XML file](https://docs.wifi.service.gov.uk/assets/govwifi-profile.xml) available
-to your users - as an example, you could host this file on an intranet web server. The devices will then be able to
+to your users - for example, you could host this file on an intranet web server. The devices will then be able to
 verify their certificate against the XML file to confirm whether those devices are authorised to join the network.
 
-The user will only need to enter their username and password once they have signed up to the service.
+The user will only need to enter their username and password after signing up to the service.
 
 ### Deploy XML profile to managed devices
 
