@@ -1,17 +1,17 @@
-# Set up your network
+# Set up your network for GovWifi
 
 Before you offer GovWifi in your organisation, you need to make sure your existing wifi setup can support it.
 
 For GovWifi to work alongside your existing wifi infrastructure, your:
 
 - wifi infrastructure must use WPA2-Enterprise (AES) encryption or newer
-- wireless LAN controllers need to be able to point to one or more RADIUS servers - we recommend at least 2
+- wireless LAN controllers need to be able to point to one or more RADIUS (Remote Authentication Dial-In User Service) servers - we recommend at least 2
 - network must be able to use one or more public IP addresses for connecting to the RADIUS servers
 - firewall must allow RADIUS protocol to connect to the GovWifi authentication servers - port 1812/User Datagram Protocol (UDP) for authentication requests
 
 It is important to allow authenticated users to connect to virtual private networks (VPNs) as well as standard internet protocols.
 
-## Security
+## Secure your network
 
 GovWifi is more secure than traditional guest networks because giving each user a unique, randomly generated username and password is safer than giving one password - or ‘preshared key’ - to everyone.
 
@@ -31,7 +31,7 @@ To decide what other security measures to put in place, do a risk assessment bas
 - making users connect to a VPN to access more sensitive information
 - your ability to block and identify users who try to visit malicious sites or breach your acceptable use policy
 
-## Bandwidth
+## Check your network bandwidth
 
 Make sure you’ll be able to provide enough bandwidth for the number of people you expect to use the network at once. You may need to plan for unpredictable use.
 
@@ -40,7 +40,7 @@ To make sure you can provide enough bandwidth:
 - make sure you’re not broadcasting your wifi network at maximum strength, so it’s only available in the areas you need to use it in
 - use your firewall to block things that takes up a lot of bandwidth, like streaming services or downloads over a certain size
 
-## Wireless access points 
+## Configure your wireless access points 
 
 Deploy centrally-managed hardware using the 5 GHz frequency band and Wi-Fi 5 (802.11ac). If you can, use Wi-Fi 6 (802.11ax).
 
@@ -55,3 +55,7 @@ Configure your wireless access points (APs) to:
 You may enable wider channels (channel bonding) for 802.11ac, but you should configure them to fall back to a non-overlapping channel. Use automatic channel bonding if you can.
 
 Use automatic channel selection features in enterprise wifi management systems rather than manual configuration.
+
+After checking that your existing wifi setup can support GovWifi you can continue to:
+
+- [setup GovWifi for your organisation](https://docs.wifi.service.gov.uk/set_up)
