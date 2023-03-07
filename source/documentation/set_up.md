@@ -84,7 +84,7 @@ Read about how to [create certificate profiles in configuration manager](https:/
 
 ### Prioritise the GovWifi profile
 
-GovWifi must be the highest priority service set identifier (SSID) in your organisation, except for SSIDs that provide access to privileged networks using device certificates.
+GovWifi should be set as the highest priority service set identifier (SSID) in your organisation. This does not apply when internal SSIDs are providing access to privileged networks using certificate based authentication.
 
 Add the following to your users’ login script:
 
