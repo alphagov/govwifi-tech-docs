@@ -41,9 +41,8 @@
 									<ServerValidation>
 										<DisableUserPromptForServerValidation>true</DisableUserPromptForServerValidation>
 										<ServerNames>wifi.service.gov.uk</ServerNames>
-										<TrustedRootCA>de 28 f4 a4 ff e5 b9 2f a3 c5 03 d1 a3 49 a7 f9 96 2a 82 12 </TrustedRootCA>
-										<TrustedRootCA>32 3c 11 8e 1b f7 b8 b6 52 54 e2 e2 10 0d d6 02 90 37 f0 96 </TrustedRootCA>
 										<TrustedRootCA>a8 98 5d 3a 65 e5 e5 c4 b2 d7 d6 6d 40 c6 dd 2f b1 9c 54 36 </TrustedRootCA>
+										<TrustedRootCA>df 3c 24 f9 bf d6 66 76 1b 26 80 73 fe 06 d1 cc 8d 4f 82 a4 </TrustedRootCA>
 									</ServerValidation>
 									<FastReconnect>true</FastReconnect>
 									<InnerEapOptional>false</InnerEapOptional>
