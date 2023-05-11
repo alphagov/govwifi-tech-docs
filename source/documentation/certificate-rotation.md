@@ -25,7 +25,7 @@ Download the new certificates for 2023:
 
 ## Help users accept the new certificate
 
-We’ve published [guidance for users](https://www.wifi.service.gov.uk/connect-to-govwifi/update-govwifi-server-certificate/) on what to do and we’ll tell them about the update in advance. However, they may still need help from your IT support team.
+We’ve published [guidance for users](https://www.wifi.service.gov.uk/connect-to-govwifi/update-govwifi-server-certificate/) on what to do. However, they may still need help from your IT support team.
 
 ### What they need to do may vary
 
