@@ -15,7 +15,7 @@ After creating your account you should invite at least one colleague to create a
 
 You must [sign the memorandum of understanding](https://admin.wifi.service.gov.uk/mou) (MOU) before your organisation can begin installing GovWifi.
 
-The MOU sets out the agreement between the Government Digital Service (GDS) and your public sector organisation in relation to GovWifi use.
+The MOU sets out the agreement between the Government Digital Service (GDS) and your public sector organisation in relation to GovWifi use. You can find the digital version of the MOU [here.](/mou)
 
 ## Create a new wifi installation
 
