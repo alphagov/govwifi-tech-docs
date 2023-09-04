@@ -1,4 +1,4 @@
-FROM governmentpaas/cf-cli
+FROM ruby:3.2.2-alpine
 
 WORKDIR /usr/src/app
 
