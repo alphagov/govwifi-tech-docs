@@ -3,7 +3,7 @@ host: docs.wifi.service.gov.uk
 
 # Header-related options
 show_govuk_logo: true
-service_name: GovWifi Tech Docs (under test)
+service_name: GovWifi Tech Docs
 service_link: https://docs.wifi.service.gov.uk
 
 # Links to show on right-hand-side of header
