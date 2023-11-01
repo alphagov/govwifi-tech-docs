@@ -11,5 +11,3 @@ configure :build do
 end
 
 GovukTechDocs.configure(self)
-
-activate :directory_indexes
