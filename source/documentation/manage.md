@@ -14,7 +14,7 @@ You can [use our poster](/assets/GovWifi-poster.png). It includes information on
 
 ## Support GovWifi users in your buildings
 
-While we provide [support information for users](https://www.wifi.service.gov.uk/connect-to-govwifi/get-help-connecting/) on our GovWifi site, your organisation must support GovWifi users who cannot solve their own issues. 
+While we provide [support information for users](https://www.wifi.service.gov.uk/get-help-connecting/) on our GovWifi site, your organisation must support GovWifi users who cannot solve their own issues. 
 
 You can decide how to do this. The only requirement is that users have a clear route to a human who can help them. This may be an email address or phone number included on your GovWifi advertisements.  
 
