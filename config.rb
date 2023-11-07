@@ -11,3 +11,6 @@ configure :build do
 end
 
 GovukTechDocs.configure(self)
+
+redirect "set_up/index.html", to: "/set_up.html"
+redirect "requirements/index.html", to: "/requirements.html"

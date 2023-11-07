@@ -58,4 +58,4 @@ Use automatic channel selection features in enterprise wifi management systems r
 
 After checking that your existing wifi setup can support GovWifi you can continue to:
 
-- [setup GovWifi for your organisation](https://docs.wifi.service.gov.uk/set_up)
+- [setup GovWifi for your organisation](./set_up)

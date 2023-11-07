@@ -25,7 +25,7 @@ Download the new certificates for 2023:
 
 ## Help users accept the new certificate
 
-We’ve published [guidance for users](https://www.wifi.service.gov.uk/connect-to-govwifi/update-govwifi-server-certificate/) on what to do. However, they may still need help from your IT support team.
+We’ve published [guidance for users](https://www.wifi.service.gov.uk/update-govwifi-server-certificate/) on what to do. However, they may still need help from your IT support team.
 
 ### What they need to do may vary
 
@@ -58,7 +58,7 @@ Depending how a user's organisation deploys the profile, user’s may need to co
 If the user has accepted the certificate but still cannot connect, follow your usual troubleshooting process. You can also advise them to:
 
 - forget the network and try to connect again
-- follow our [guidance on common issues with GovWifi](https://www.wifi.service.gov.uk/connect-to-govwifi/get-help-connecting/)
+- follow our [guidance on common issues with GovWifi](https://www.wifi.service.gov.uk/get-help-connecting/)
 
 ## Get support
 

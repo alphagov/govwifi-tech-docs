@@ -96,11 +96,11 @@ the HTML and asset files ready to be published.
 3. Make your changes (with tests if applicable)
 4. Raise a pull request
 
-## Licence
+## License
 
 The documentation is [© Crown copyright][copyright] and available under the terms
-of the [Open Government 3.0][ogl] licence.
+of the [Open Government 3.0][ogl] license.
 
-[mit]: LICENCE
+[mit]: LICENSE
 [copyright]: http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/
 [ogl]: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/

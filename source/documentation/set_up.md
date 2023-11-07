@@ -1,4 +1,4 @@
-Before offering GovWifi in your organisation check that [your existing wifi setup can support it](https://docs.wifi.service.gov.uk/requirements/).
+Before offering GovWifi in your organisation check that [your existing wifi setup can support it](./requirements/).
 
 # Set up GovWifi for your organisation
 
@@ -6,7 +6,7 @@ Before offering GovWifi in your organisation check that [your existing wifi setu
 
 > To connect to GovWifi for individual use, follow the instructions to [create a GovWifi account and connect to GovWifi](https://www.wifi.service.gov.uk/connect-to-govwifi/).
 
-1. Check if [GovWifi is available to your organisation](https://www.wifi.service.gov.uk/connect-to-govwifi/organisations-using-govwifi/). If your organisation is not listed [contact us](https://admin.wifi.service.gov.uk/help/new/technical_support).
+1. Check if [GovWifi is available to your organisation](https://www.wifi.service.gov.uk/organisations-using-govwifi/). If your organisation is not listed [contact us](https://admin.wifi.service.gov.uk/help/new/technical_support).
 2. [Sign up for a GovWifi administrator account](https://admin.wifi.service.gov.uk/users/sign_up).
 
 After creating your account you should invite at least one colleague to create an account. This is so that a colleague can reset your two-factor authentication, if needed. Invite them from the **team members** section of your GovWifi admin account.
@@ -15,7 +15,7 @@ After creating your account you should invite at least one colleague to create a
 
 You must [sign the memorandum of understanding](https://admin.wifi.service.gov.uk/mou) (MOU) before your organisation can begin installing GovWifi.
 
-The MOU sets out the agreement between the Government Digital Service (GDS) and your public sector organisation in relation to GovWifi use. You can find the digital version of the MOU [here.](/mou)
+The MOU sets out the agreement between the Government Digital Service (GDS) and your public sector organisation in relation to GovWifi use. You can [find the digital version of the MOU here.](./mou)
 
 ## Create a new wifi installation
 
@@ -116,7 +116,7 @@ We recommend you have a backup guest SSID that people in your buildings can use 
 
 When setting up your backup guest SSID: 
 
-- make sure it meets our [security standards](https://docs.wifi.service.gov.uk/requirements/#security), and points users to any terms of use your organisation has 
+- make sure it meets our [security standards](./requirements.html#secure-your-network), and points users to any terms of use your organisation has 
 - do not use ‘GovWifi’ as the SSID, or you might have potential conflicts when GovWifi is working again 
 - make sure you can easily disable it when GovWifi is working again 
 

@@ -19,7 +19,7 @@ GovWifi administrators:
 
 Issues like slow speeds, dropped connections, or difficulty accessing certain sites, are related to the local network. GovWifi is an authentication service and GovWifi support cannot help with these.
 
-You can check that users have followed the [guidance on common issues](https://www.wifi.service.gov.uk/connect-to-govwifi/get-help-connecting/). You can also use the guidance on how to [create an account and connect a device to GovWifi](https://www.wifi.service.gov.uk/connect-to-govwifi/).
+You can check that users have followed the [guidance on common issues](https://www.wifi.service.gov.uk/get-help-connecting/). You can also use the guidance on how to [create an account and connect a device to GovWifi](https://www.wifi.service.gov.uk/connect-to-govwifi/).
 
 ### Sponsor the user for new sign-up details
 
