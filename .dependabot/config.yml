@@ -1,9 +1,20 @@
 version: 2
-update_configs:
-  - package_manager: "ruby:bundler"
+updates:
+  - package-ecosystem: bundler
     directory: "/"
-    update_schedule: "live"
-
-  - package_manager: "docker"
+    schedule:
+      interval: daily
+      time: "03:00"
+    open-pull-requests-limit: 10
+  - package-ecosystem: npm
     directory: "/"
-    update_schedule: "daily"
+    schedule:
+      interval: daily
+      time: "03:00"
+    open-pull-requests-limit: 10
+  - package-ecosystem: docker
+    directory: "/"
+    schedule:
+      interval: daily
+      time: "03:00"
+    open-pull-requests-limit: 10
