@@ -9,7 +9,11 @@ Before offering GovWifi in your organisation check that [your existing wifi setu
 1. Check if [GovWifi is available to your organisation](https://www.wifi.service.gov.uk/organisations-using-govwifi/). If your organisation is not listed [contact us](https://admin.wifi.service.gov.uk/help/new/technical_support).
 2. [Sign up for a GovWifi administrator account](https://admin.wifi.service.gov.uk/users/sign_up).
 
-After creating your account you should invite at least one colleague to create an account. This is so that a colleague can reset your two-factor authentication, if needed. Invite them from the **team members** section of your GovWifi admin account.
+Before setting up two-factor authentication, please ensure your two-factor authentication device time & date is correct e.g. with internet time. Device time drift can cause authentication failures.
+
+After creating your account you should invite at least one colleague to create an account. This is so that a colleague can reset your two-factor authentication, if needed.
+
+Invite them from the **team members** section of your GovWifi admin account.
 
 ## Sign the memorandum of understanding
 
