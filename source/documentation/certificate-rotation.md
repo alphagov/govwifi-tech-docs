@@ -19,9 +19,9 @@ If you need to update the profile with the new certificate details you must push
 
 Download the new certificates for 2024:
 
-* [server certificate](https://docs.wifi.service.gov.uk/assets/2023/wifi.service.gov.uk.crt)
-* [intermediate certificate](https://docs.wifi.service.gov.uk/assets/2023/GeoTrustTLSRSACAG1.crt)
-* [root certificate](https://docs.wifi.service.gov.uk/assets/2023/DigiCertGlobalRootG2.crt)
+* [server certificate](https://docs.wifi.service.gov.uk/assets/2024/wifi.service.gov.uk.crt)
+* [intermediate certificate](https://docs.wifi.service.gov.uk/assets/2024/GeoTrustTLSRSACAG1.crt)
+* [root certificate](https://docs.wifi.service.gov.uk/assets/2024/DigiCertGlobalRootG2.crt)
 
 ## Help users accept the new certificate
 
