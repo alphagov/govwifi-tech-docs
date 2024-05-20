@@ -17,7 +17,7 @@ Invite them from the **team members** section of your GovWifi admin account.
 
 ## Sign the memorandum of understanding
 
-You must [sign the memorandum of understanding](https://admin.wifi.service.gov.uk/mou) (MOU) before your organisation can begin installing GovWifi.
+You must [sign the memorandum of understanding](https://www.wifi.service.gov.uk/memorandum-of-understanding/) (MOU) before your organisation can begin installing GovWifi.
 
 The MOU sets out the agreement between the Government Digital Service (GDS) and your public sector organisation in relation to GovWifi use.
 
