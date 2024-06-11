@@ -1,0 +1,29 @@
+name: build-on-pr
+on: [pull_request]
+jobs:
+
+    build_tech_docs:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v4
+          with:
+            fetch-depth: 0
+  
+        - name: Setup node
+          uses: actions/setup-node@v4
+          with:
+            node-version: 'latest'
+  
+        - name: Setup ruby
+          uses: ruby/setup-ruby@v1
+          with:
+            bundler-cache: true
+
+        - name: Setup npm
+          run: npm install
+
+        - name: Install ruby dependencies
+          run: bundle install
+
+        - name: Build static site
+          run: bundle exec middleman build
